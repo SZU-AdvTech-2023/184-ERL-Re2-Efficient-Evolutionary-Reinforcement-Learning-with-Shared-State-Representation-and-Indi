@@ -1,0 +1,6 @@
+@article{REPO184,
+    author = "Hao, Jianye and Li, Pengyi and Tang, Hongyao and Zheng, Yan and Fu, Xian and Meng, Zhaopeng",
+    journal = "arXiv preprint arXiv:2210.17375",
+    title = "{ERL-Re $\^{} 2$: Efficient Evolutionary Reinforcement Learning with Shared State Representation and Individual Policy Representation}",
+    year = "2022"
+}
