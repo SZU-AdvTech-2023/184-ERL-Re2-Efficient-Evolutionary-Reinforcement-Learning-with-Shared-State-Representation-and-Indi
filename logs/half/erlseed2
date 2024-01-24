@@ -1,0 +1,866 @@
+(/home/xiexudong/anaconda3/envs/rl/rl2) xiexudong@tom:~/ERL-RE/ERL-Re2-main$   python run_re2.py -env="HalfCheetah-v2"  -OFF_TYPE=1 -pr=64 -pop_size=5 -prob_reset_and_sup=0.05  -time_steps=200 -theta=0.5 -frac=0.5  -gamma=0.99  -TD3_noise=0.2 -EA -RL -K=1 -state_alpha=0.0 -actor_alpha=1.0 -EA_actor_alpha=1.0 -tau=0.005 -seed=2   -logdir="./logs"
+env.action_space.low [-1. -1. -1. -1. -1. -1.] env.action_space.high [1. 1. 1. 1. 1. 1.]
+{   'EA': True,
+    'EA_actor_alpha': 1.0,
+    'K': 1,
+    'OFF_TYPE': 1,
+    'RL': True,
+    'TD3_noise': 0.2,
+    'action_dim': 6,
+    'actor_alpha': 1.0,
+    'alpha': 0.7,
+    'batch_size': 128,
+    'beta_zero': 0.5,
+    'buffer_size': 1000000,
+    'crossover_prob': 0.0,
+    'detach_z': False,
+    'device': device(type='cuda'),
+    'distil': False,
+    'distil_type': 'fitness',
+    'elite_fraction': 0.2,
+    'env_name': 'HalfCheetah-v2',
+    'frac': 0.5,
+    'frac_frames_train': 1.0,
+    'gamma': 0.99,
+    'individual_bs': 8000,
+    'init_steps': 10000,
+    'intention': False,
+    'learn_start': 15627.0,
+    'ls': 300,
+    'mutation_batch_size': 256,
+    'mutation_mag': 0.05,
+    'mutation_noise': False,
+    'mutation_prob': 0.9,
+    'name': 'Steps_200_theta_0.5_eval_1_rs_prob_0.05_frac_p_0.5_our_M_1_0.2_1_5_1.0_64_noise_0.2_Pavn_detach_False_1.0_actorloss_MI_sa_s_0.0_random_K_1_HalfCheetah-v2_0.005',
+    'next_save': 200,
+    'ns': False,
+    'ns_epochs': 10,
+    'num_evals': 1,
+    'num_frames': 1000000,
+    'opstat': False,
+    'opstat_freq': 1,
+    'per': False,
+    'pop_size': 5,
+    'pr': 64,
+    'prob_reset_and_sup': 0.05,
+    'proximal_mut': False,
+    'random_choose': False,
+    'render': False,
+    'replace_old': True,
+    'rl_to_ea_synch_period': 1,
+    'save_foldername': './logs/Steps_200_theta_0.5_eval_1_rs_prob_0.05_frac_p_0.5_our_M_1_0.2_1_5_1.0_64_noise_0.2_Pavn_detach_False_1.0_actorloss_MI_sa_s_0.0_random_K_1_HalfCheetah-v2_0.005',
+    'save_periodic': False,
+    'seed': 2,
+    'state_alpha': 0.0,
+    'state_dim': 17,
+    'tau': 0.005,
+    'test_operators': False,
+    'theta': 0.5,
+    'time_steps': 200,
+    'total_steps': 1000000,
+    'use_all': False,
+    'use_done_mask': True,
+    'use_ln': True,
+    'verbose_crossover': False,
+    'verbose_mut': False}
+Running HalfCheetah-v2  State_dim: 17  Action_dim: 6
+#Games: 1 #Frames: 1000  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: -0.75  PG Loss: 0.0000
+
+#Games: 2 #Frames: 2000  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: -0.87  PG Loss: 0.0000
+
+#Games: 3 #Frames: 3000  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: -0.86  PG Loss: 0.0000
+
+#Games: 4 #Frames: 4000  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: -0.86  PG Loss: 0.0000
+
+#Games: 5 #Frames: 5000  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: -0.54  PG Loss: 0.0000
+
+#Games: 6 #Frames: 6000  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: -0.39  PG Loss: 0.0000
+
+#Games: 7 #Frames: 7000  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: -0.87  PG Loss: 0.0000
+
+#Games: 8 #Frames: 8000  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: -0.63  PG Loss: 0.0000
+
+#Games: 9 #Frames: 9000  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: -0.90  PG Loss: 0.0000
+
+Sync from RL --> Nevo
+#Games: 10 #Frames: 10000  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: -564.44  PG Loss: -0.6879
+
+Sync from RL --> Nevo
+#Games: 16 #Frames: 12000  Train_Max: -8.55  Test_Score: -60.40  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: -456.71  PG Loss: -1.9097
+
+Sync from RL --> Nevo
+#Games: 22 #Frames: 14000  Train_Max: -8.31  Test_Score: -426.38  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: -393.08  PG Loss: -3.7202
+
+Sync from RL --> Nevo
+#Games: 28 #Frames: 20000  Train_Max: -394.23  Test_Score: -394.62  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: -102.89  PG Loss: -6.7824
+
+Sync from RL --> Nevo
+#Games: 34 #Frames: 22000  Train_Max: 51.80  Test_Score: 32.65  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 1333.13  PG Loss: -11.4928
+
+Sync from RL --> Nevo
+#Games: 40 #Frames: 28000  Train_Max: 1498.70  Test_Score: 1210.74  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 1800.03  PG Loss: -17.7077
+
+Sync from RL --> Nevo
+#Games: 46 #Frames: 30000  Train_Max: 149.49  Test_Score: 1739.16  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 1778.91  PG Loss: -28.0951
+
+Sync from RL --> Nevo
+#Games: 52 #Frames: 32000  Train_Max: 201.23  Test_Score: 2188.11  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 3192.69  PG Loss: -35.0740
+
+Sync from RL --> Nevo
+#Games: 58 #Frames: 38000  Train_Max: 3255.97  Test_Score: 3226.54  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 3459.26  PG Loss: -54.4582
+
+Sync from RL --> Nevo
+#Games: 64 #Frames: 44000  Train_Max: 3419.72  Test_Score: 3483.88  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 3586.78  PG Loss: -84.3958
+
+Sync from RL --> Nevo
+#Games: 70 #Frames: 50000  Train_Max: 3598.20  Test_Score: 3591.82  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 3816.25  PG Loss: -115.5345
+
+Sync from RL --> Nevo
+#Games: 76 #Frames: 56000  Train_Max: 3970.21  Test_Score: 3947.49  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 3729.31  PG Loss: -145.7215
+
+Sync from RL --> Nevo
+#Games: 82 #Frames: 58000  Train_Max: 340.48  Test_Score: 4112.60  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 3945.43  PG Loss: -162.6975
+
+Sync from RL --> Nevo
+#Games: 88 #Frames: 60000  Train_Max: 318.91  Test_Score: 3889.95  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 3903.88  PG Loss: -172.2312
+
+Sync from RL --> Nevo
+#Games: 94 #Frames: 62000  Train_Max: 324.17  Test_Score: 3996.53  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 3898.24  PG Loss: -180.6058
+
+Sync from RL --> Nevo
+#Games: 100 #Frames: 64000  Train_Max: 332.24  Test_Score: 4165.04  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 4173.91  PG Loss: -189.4691
+
+Sync from RL --> Nevo
+#Games: 106 #Frames: 66000  Train_Max: 368.29  Test_Score: 4532.75  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 4622.30  PG Loss: -197.9052
+
+Sync from RL --> Nevo
+#Games: 112 #Frames: 68000  Train_Max: 362.62  Test_Score: 4488.24  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 4311.77  PG Loss: -206.3245
+
+Sync from RL --> Nevo
+#Games: 118 #Frames: 74000  Train_Max: 4554.37  Test_Score: 4531.92  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 4600.85  PG Loss: -223.1532
+
+Sync from RL --> Nevo
+#Games: 124 #Frames: 76000  Train_Max: 389.84  Test_Score: 5127.07  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 4787.04  PG Loss: -238.1522
+
+Sync from RL --> Nevo
+#Games: 130 #Frames: 78000  Train_Max: 369.31  Test_Score: 4528.43  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 4924.13  PG Loss: -245.4611
+
+Sync from RL --> Nevo
+#Games: 136 #Frames: 84000  Train_Max: 4925.39  Test_Score: 4922.09  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 4860.13  PG Loss: -259.0735
+
+Sync from RL --> Nevo
+#Games: 142 #Frames: 90000  Train_Max: 5344.76  Test_Score: 5298.72  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 5133.09  PG Loss: -281.0953
+
+Sync from RL --> Nevo
+#Games: 148 #Frames: 92000  Train_Max: 429.14  Test_Score: 5396.48  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 3399.38  PG Loss: -294.3150
+
+Sync from RL --> Nevo
+#Games: 154 #Frames: 94000  Train_Max: 423.14  Test_Score: 5381.42  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 5534.10  PG Loss: -300.8308
+
+Sync from RL --> Nevo
+#Games: 160 #Frames: 100000  Train_Max: 5566.42  Test_Score: 5501.49  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 5645.09  PG Loss: -315.6173
+
+Sync from RL --> Nevo
+#Games: 166 #Frames: 102000  Train_Max: 454.86  Test_Score: 5667.23  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 5415.63  PG Loss: -327.7270
+
+Sync from RL --> Nevo
+#Games: 172 #Frames: 108000  Train_Max: 5419.24  Test_Score: 5432.88  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 5731.77  PG Loss: -341.6366
+
+Sync from RL --> Nevo
+#Games: 178 #Frames: 114000  Train_Max: 5652.33  Test_Score: 5725.20  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 5697.61  PG Loss: -359.3903
+
+Sync from RL --> Nevo
+#Games: 184 #Frames: 116000  Train_Max: 460.81  Test_Score: 5684.04  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 4424.41  PG Loss: -369.4317
+
+Sync from RL --> Nevo
+#Games: 190 #Frames: 118000  Train_Max: 479.10  Test_Score: 3840.56  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 5569.22  PG Loss: -374.1067
+
+Sync from RL --> Nevo
+#Games: 196 #Frames: 120000  Train_Max: 460.63  Test_Score: 5579.12  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 5723.99  PG Loss: -379.6181
+
+Sync from RL --> Nevo
+#Games: 202 #Frames: 122000  Train_Max: 456.41  Test_Score: 5726.04  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 5715.49  PG Loss: -383.9518
+
+Sync from RL --> Nevo
+#Games: 208 #Frames: 128000  Train_Max: 5779.58  Test_Score: 5708.15  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 6204.68  PG Loss: -393.7767
+
+Sync from RL --> Nevo
+#Games: 214 #Frames: 134000  Train_Max: 6313.44  Test_Score: 6189.78  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 6319.97  PG Loss: -407.5860
+
+Sync from RL --> Nevo
+#Games: 220 #Frames: 136000  Train_Max: 498.47  Test_Score: 6311.41  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 5891.37  PG Loss: -415.0174
+
+Sync from RL --> Nevo
+#Games: 226 #Frames: 138000  Train_Max: 482.10  Test_Score: 5860.47  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 6084.65  PG Loss: -419.1174
+
+Sync from RL --> Nevo
+#Games: 232 #Frames: 140000  Train_Max: 476.93  Test_Score: 5882.73  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 6466.50  PG Loss: -423.4716
+
+Sync from RL --> Nevo
+#Games: 238 #Frames: 142000  Train_Max: 510.41  Test_Score: 6472.41  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 6221.06  PG Loss: -427.0220
+
+Sync from RL --> Nevo
+#Games: 244 #Frames: 144000  Train_Max: 475.80  Test_Score: 6211.38  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 6210.44  PG Loss: -430.7538
+
+Sync from RL --> Nevo
+#Games: 250 #Frames: 150000  Train_Max: 6199.99  Test_Score: 6220.92  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 5709.94  PG Loss: -438.9582
+
+Sync from RL --> Nevo
+#Games: 256 #Frames: 152000  Train_Max: 500.79  Test_Score: 6285.23  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 6460.94  PG Loss: -444.9750
+
+Sync from RL --> Nevo
+#Games: 262 #Frames: 158000  Train_Max: 6526.18  Test_Score: 6478.40  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 6126.89  PG Loss: -451.4878
+
+Sync from RL --> Nevo
+#Games: 268 #Frames: 164000  Train_Max: 6401.79  Test_Score: 6315.55  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 6553.41  PG Loss: -460.8507
+
+Sync from RL --> Nevo
+#Games: 274 #Frames: 170000  Train_Max: 6585.54  Test_Score: 6566.64  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 6424.79  PG Loss: -469.8138
+
+Sync from RL --> Nevo
+#Games: 280 #Frames: 172000  Train_Max: 516.80  Test_Score: 6526.62  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 6597.30  PG Loss: -475.2236
+
+Sync from RL --> Nevo
+#Games: 286 #Frames: 178000  Train_Max: 6517.74  Test_Score: 6604.03  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 6371.23  PG Loss: -481.2138
+
+Sync from RL --> Nevo
+#Games: 292 #Frames: 180000  Train_Max: 501.71  Test_Score: 6400.48  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 6608.03  PG Loss: -485.3311
+
+Sync from RL --> Nevo
+#Games: 298 #Frames: 182000  Train_Max: 523.65  Test_Score: 6408.42  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 6816.95  PG Loss: -487.8507
+
+Sync from RL --> Nevo
+#Games: 304 #Frames: 184000  Train_Max: 533.79  Test_Score: 6809.18  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 6486.35  PG Loss: -490.5789
+
+Sync from RL --> Nevo
+#Games: 310 #Frames: 190000  Train_Max: 6708.60  Test_Score: 6610.89  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 6394.82  PG Loss: -495.9887
+
+Sync from RL --> Nevo
+#Games: 316 #Frames: 196000  Train_Max: 6712.54  Test_Score: 6704.41  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 6464.01  PG Loss: -502.8166
+
+Sync from RL --> Nevo
+#Games: 322 #Frames: 202000  Train_Max: 6731.82  Test_Score: 6295.74  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 6876.60  PG Loss: -508.4834
+
+Sync from RL --> Nevo
+#Games: 328 #Frames: 208000  Train_Max: 6941.45  Test_Score: 6839.80  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 7157.78  PG Loss: -514.2017
+
+Sync from RL --> Nevo
+#Games: 334 #Frames: 210000  Train_Max: 553.36  Test_Score: 7158.13  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 7044.36  PG Loss: -517.6256
+
+Sync from RL --> Nevo
+#Games: 340 #Frames: 212000  Train_Max: 529.03  Test_Score: 7045.72  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 6970.20  PG Loss: -519.0040
+
+Sync from RL --> Nevo
+#Games: 346 #Frames: 214000  Train_Max: 532.26  Test_Score: 7013.66  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 7053.78  PG Loss: -520.7569
+
+Sync from RL --> Nevo
+#Games: 352 #Frames: 220000  Train_Max: 7070.72  Test_Score: 7031.26  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 6867.51  PG Loss: -524.5967
+
+Sync from RL --> Nevo
+#Games: 358 #Frames: 226000  Train_Max: 7156.37  Test_Score: 7164.13  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 7216.85  PG Loss: -530.6226
+
+Sync from RL --> Nevo
+#Games: 364 #Frames: 228000  Train_Max: 550.95  Test_Score: 7009.32  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 7337.47  PG Loss: -534.2654
+
+Sync from RL --> Nevo
+#Games: 370 #Frames: 234000  Train_Max: 7323.36  Test_Score: 7328.76  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 7342.29  PG Loss: -538.2205
+
+Sync from RL --> Nevo
+#Games: 376 #Frames: 236000  Train_Max: 559.11  Test_Score: 7328.38  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 7625.86  PG Loss: -541.9745
+
+Sync from RL --> Nevo
+#Games: 382 #Frames: 242000  Train_Max: 7690.21  Test_Score: 7647.93  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 7458.57  PG Loss: -546.5919
+
+Sync from RL --> Nevo
+#Games: 388 #Frames: 248000  Train_Max: 7389.62  Test_Score: 7349.37  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 7968.95  PG Loss: -552.8875
+
+Sync from RL --> Nevo
+#Games: 394 #Frames: 254000  Train_Max: 8044.40  Test_Score: 7933.90  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8000.03  PG Loss: -560.4196
+
+Sync from RL --> Nevo
+#Games: 400 #Frames: 256000  Train_Max: 592.07  Test_Score: 7854.00  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 7787.88  PG Loss: -564.9560
+
+Sync from RL --> Nevo
+#Games: 406 #Frames: 258000  Train_Max: 594.42  Test_Score: 7824.05  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 7723.08  PG Loss: -567.0697
+
+Sync from RL --> Nevo
+#Games: 412 #Frames: 260000  Train_Max: 583.54  Test_Score: 7515.75  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 7631.93  PG Loss: -569.9615
+
+Sync from RL --> Nevo
+#Games: 418 #Frames: 262000  Train_Max: 582.49  Test_Score: 7576.21  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 7922.27  PG Loss: -571.3742
+
+Sync from RL --> Nevo
+#Games: 424 #Frames: 268000  Train_Max: 7653.30  Test_Score: 7918.99  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 7885.90  PG Loss: -576.3752
+
+Sync from RL --> Nevo
+#Games: 430 #Frames: 274000  Train_Max: 7807.69  Test_Score: 7872.51  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8045.49  PG Loss: -581.5552
+
+Sync from RL --> Nevo
+#Games: 436 #Frames: 280000  Train_Max: 8013.76  Test_Score: 8023.59  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 7826.44  PG Loss: -588.5033
+
+Sync from RL --> Nevo
+#Games: 442 #Frames: 286000  Train_Max: 7773.22  Test_Score: 7835.54  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8207.87  PG Loss: -595.7887
+
+Sync from RL --> Nevo
+#Games: 448 #Frames: 292000  Train_Max: 8343.36  Test_Score: 8302.88  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8488.50  PG Loss: -601.7971
+
+Sync from RL --> Nevo
+#Games: 454 #Frames: 294000  Train_Max: 609.98  Test_Score: 7960.14  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 7908.04  PG Loss: -605.0105
+
+Sync from RL --> Nevo
+#Games: 460 #Frames: 296000  Train_Max: 593.63  Test_Score: 8134.05  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8135.69  PG Loss: -607.4946
+
+Sync from RL --> Nevo
+#Games: 466 #Frames: 298000  Train_Max: 611.80  Test_Score: 8083.67  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8445.14  PG Loss: -608.8019
+
+Sync from RL --> Nevo
+#Games: 472 #Frames: 304000  Train_Max: 8583.29  Test_Score: 8587.07  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8535.81  PG Loss: -611.1537
+
+Sync from RL --> Nevo
+#Games: 478 #Frames: 306000  Train_Max: 627.88  Test_Score: 8549.62  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8714.37  PG Loss: -615.0336
+
+Sync from RL --> Nevo
+#Games: 484 #Frames: 312000  Train_Max: 8558.79  Test_Score: 8697.14  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8002.57  PG Loss: -618.4242
+
+Sync from RL --> Nevo
+#Games: 490 #Frames: 318000  Train_Max: 8372.35  Test_Score: 8278.06  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8308.92  PG Loss: -623.1209
+
+Sync from RL --> Nevo
+#Games: 496 #Frames: 324000  Train_Max: 8708.05  Test_Score: 8702.59  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8752.36  PG Loss: -628.7003
+
+Sync from RL --> Nevo
+#Games: 502 #Frames: 326000  Train_Max: 639.19  Test_Score: 8888.07  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8278.34  PG Loss: -631.9660
+
+Sync from RL --> Nevo
+#Games: 508 #Frames: 328000  Train_Max: 628.97  Test_Score: 8667.56  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8997.34  PG Loss: -633.6507
+
+Sync from RL --> Nevo
+#Games: 514 #Frames: 330000  Train_Max: 639.81  Test_Score: 8984.64  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8278.58  PG Loss: -634.9724
+
+Sync from RL --> Nevo
+#Games: 520 #Frames: 332000  Train_Max: 622.46  Test_Score: 8364.28  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8626.34  PG Loss: -636.2550
+
+Sync from RL --> Nevo
+#Games: 526 #Frames: 334000  Train_Max: 632.97  Test_Score: 8161.29  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8712.61  PG Loss: -638.3414
+
+Sync from RL --> Nevo
+#Games: 532 #Frames: 336000  Train_Max: 642.09  Test_Score: 8575.81  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9073.67  PG Loss: -639.7241
+
+Sync from RL --> Nevo
+#Games: 538 #Frames: 338000  Train_Max: 638.63  Test_Score: 8664.18  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8681.01  PG Loss: -640.4656
+
+Sync from RL --> Nevo
+#Games: 544 #Frames: 344000  Train_Max: 8726.42  Test_Score: 8767.51  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8834.60  PG Loss: -642.5811
+
+Sync from RL --> Nevo
+#Games: 550 #Frames: 346000  Train_Max: 621.41  Test_Score: 8881.71  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8881.69  PG Loss: -644.3849
+
+Sync from RL --> Nevo
+#Games: 556 #Frames: 348000  Train_Max: 632.59  Test_Score: 8916.31  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8905.18  PG Loss: -645.2498
+
+Sync from RL --> Nevo
+#Games: 562 #Frames: 350000  Train_Max: 642.80  Test_Score: 9146.38  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8893.64  PG Loss: -645.7189
+
+Sync from RL --> Nevo
+#Games: 568 #Frames: 352000  Train_Max: 625.75  Test_Score: 8946.78  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8562.07  PG Loss: -646.8840
+
+Sync from RL --> Nevo
+#Games: 574 #Frames: 354000  Train_Max: 627.90  Test_Score: 8317.79  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8815.88  PG Loss: -648.3683
+
+Sync from RL --> Nevo
+#Games: 580 #Frames: 356000  Train_Max: 617.10  Test_Score: 8718.45  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8718.03  PG Loss: -650.3359
+
+Sync from RL --> Nevo
+#Games: 586 #Frames: 358000  Train_Max: 640.20  Test_Score: 8767.53  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8358.41  PG Loss: -651.0837
+
+Sync from RL --> Nevo
+#Games: 592 #Frames: 360000  Train_Max: 642.76  Test_Score: 8176.51  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8895.22  PG Loss: -652.8121
+
+Sync from RL --> Nevo
+#Games: 598 #Frames: 362000  Train_Max: 632.02  Test_Score: 8883.34  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9015.23  PG Loss: -654.4715
+
+Sync from RL --> Nevo
+#Games: 604 #Frames: 368000  Train_Max: 9155.28  Test_Score: 9067.69  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8314.49  PG Loss: -655.8557
+
+Sync from RL --> Nevo
+#Games: 610 #Frames: 374000  Train_Max: 9047.34  Test_Score: 8858.31  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8365.68  PG Loss: -658.9497
+
+Sync from RL --> Nevo
+#Games: 616 #Frames: 376000  Train_Max: 656.45  Test_Score: 9102.78  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9033.51  PG Loss: -661.0579
+
+Sync from RL --> Nevo
+#Games: 622 #Frames: 378000  Train_Max: 665.61  Test_Score: 8943.06  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9256.64  PG Loss: -661.7601
+
+Sync from RL --> Nevo
+#Games: 628 #Frames: 380000  Train_Max: 664.78  Test_Score: 9312.58  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8951.23  PG Loss: -662.7646
+
+Sync from RL --> Nevo
+#Games: 634 #Frames: 386000  Train_Max: 8980.68  Test_Score: 8997.87  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8739.70  PG Loss: -665.7656
+
+Sync from RL --> Nevo
+#Games: 640 #Frames: 388000  Train_Max: 651.34  Test_Score: 9228.46  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9147.05  PG Loss: -668.4451
+
+Sync from RL --> Nevo
+#Games: 646 #Frames: 394000  Train_Max: 9108.50  Test_Score: 9283.01  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9049.30  PG Loss: -669.2507
+
+Sync from RL --> Nevo
+#Games: 652 #Frames: 396000  Train_Max: 675.92  Test_Score: 9047.09  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 7700.39  PG Loss: -671.3279
+
+Sync from RL --> Nevo
+#Games: 658 #Frames: 398000  Train_Max: 656.84  Test_Score: 8649.63  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 8406.01  PG Loss: -671.9948
+
+Sync from RL --> Nevo
+#Games: 664 #Frames: 404000  Train_Max: 9329.53  Test_Score: 9334.35  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9566.45  PG Loss: -675.3887
+
+Sync from RL --> Nevo
+#Games: 670 #Frames: 410000  Train_Max: 9616.22  Test_Score: 9494.60  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9653.71  PG Loss: -679.6520
+
+Sync from RL --> Nevo
+#Games: 676 #Frames: 412000  Train_Max: 663.75  Test_Score: 9577.29  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9027.20  PG Loss: -682.4046
+
+Sync from RL --> Nevo
+#Games: 682 #Frames: 418000  Train_Max: 9389.57  Test_Score: 9486.12  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9435.95  PG Loss: -684.8675
+
+Sync from RL --> Nevo
+#Games: 688 #Frames: 424000  Train_Max: 9669.07  Test_Score: 9650.75  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9234.80  PG Loss: -689.3917
+
+Sync from RL --> Nevo
+#Games: 694 #Frames: 426000  Train_Max: 692.70  Test_Score: 9708.79  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9667.22  PG Loss: -691.1944
+
+Sync from RL --> Nevo
+#Games: 700 #Frames: 428000  Train_Max: 665.81  Test_Score: 9735.53  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9707.39  PG Loss: -692.4633
+
+Sync from RL --> Nevo
+#Games: 706 #Frames: 430000  Train_Max: 675.88  Test_Score: 9549.12  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9410.88  PG Loss: -693.1236
+
+Sync from RL --> Nevo
+#Games: 712 #Frames: 432000  Train_Max: 639.58  Test_Score: 8947.13  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9567.22  PG Loss: -694.7439
+
+Sync from RL --> Nevo
+#Games: 718 #Frames: 434000  Train_Max: 661.52  Test_Score: 9739.52  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9588.64  PG Loss: -696.1324
+
+Sync from RL --> Nevo
+#Games: 724 #Frames: 436000  Train_Max: 648.63  Test_Score: 9595.38  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9563.77  PG Loss: -697.3896
+
+Sync from RL --> Nevo
+#Games: 730 #Frames: 438000  Train_Max: 675.60  Test_Score: 9567.37  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9132.88  PG Loss: -698.4896
+
+Sync from RL --> Nevo
+#Games: 736 #Frames: 440000  Train_Max: 668.64  Test_Score: 9483.27  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9870.95  PG Loss: -699.2152
+
+Sync from RL --> Nevo
+#Games: 742 #Frames: 442000  Train_Max: 684.34  Test_Score: 9953.71  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9758.25  PG Loss: -701.5916
+
+Sync from RL --> Nevo
+#Games: 748 #Frames: 448000  Train_Max: 9867.90  Test_Score: 9797.08  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9310.87  PG Loss: -703.8533
+
+Sync from RL --> Nevo
+#Games: 754 #Frames: 450000  Train_Max: 693.69  Test_Score: 9706.27  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9809.39  PG Loss: -706.2265
+
+Sync from RL --> Nevo
+#Games: 760 #Frames: 456000  Train_Max: 9864.59  Test_Score: 9776.78  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9314.10  PG Loss: -708.2961
+
+Sync from RL --> Nevo
+#Games: 766 #Frames: 458000  Train_Max: 681.65  Test_Score: 9579.39  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9947.71  PG Loss: -710.1865
+
+Sync from RL --> Nevo
+#Games: 772 #Frames: 460000  Train_Max: 679.25  Test_Score: 9552.33  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9521.88  PG Loss: -711.6534
+
+Sync from RL --> Nevo
+#Games: 778 #Frames: 462000  Train_Max: 695.33  Test_Score: 9895.72  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9881.91  PG Loss: -712.3492
+
+Sync from RL --> Nevo
+#Games: 784 #Frames: 468000  Train_Max: 9980.44  Test_Score: 9842.62  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10082.01  PG Loss: -713.3734
+
+Sync from RL --> Nevo
+#Games: 790 #Frames: 470000  Train_Max: 682.27  Test_Score: 9655.80  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9283.71  PG Loss: -715.2514
+
+Sync from RL --> Nevo
+#Games: 796 #Frames: 472000  Train_Max: 684.44  Test_Score: 9772.36  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9672.11  PG Loss: -716.5539
+
+Sync from RL --> Nevo
+#Games: 802 #Frames: 478000  Train_Max: 9682.50  Test_Score: 9595.51  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9875.40  PG Loss: -719.1780
+
+Sync from RL --> Nevo
+#Games: 808 #Frames: 480000  Train_Max: 688.88  Test_Score: 9751.50  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10029.92  PG Loss: -720.7070
+
+Sync from RL --> Nevo
+#Games: 814 #Frames: 486000  Train_Max: 10222.52  Test_Score: 9921.18  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9248.05  PG Loss: -723.6323
+
+Sync from RL --> Nevo
+#Games: 820 #Frames: 488000  Train_Max: 676.63  Test_Score: 9211.06  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9750.36  PG Loss: -725.0886
+
+Sync from RL --> Nevo
+#Games: 826 #Frames: 490000  Train_Max: 696.59  Test_Score: 9725.48  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9933.55  PG Loss: -726.3536
+
+Sync from RL --> Nevo
+#Games: 832 #Frames: 492000  Train_Max: 710.26  Test_Score: 9999.17  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9492.73  PG Loss: -727.5436
+
+Sync from RL --> Nevo
+#Games: 838 #Frames: 498000  Train_Max: 9599.76  Test_Score: 9653.42  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9575.59  PG Loss: -729.8089
+
+Sync from RL --> Nevo
+#Games: 844 #Frames: 500000  Train_Max: 675.90  Test_Score: 8964.28  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10042.31  PG Loss: -730.7906
+
+Sync from RL --> Nevo
+#Games: 850 #Frames: 502000  Train_Max: 707.95  Test_Score: 9849.76  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9336.02  PG Loss: -731.9930
+
+Sync from RL --> Nevo
+#Games: 856 #Frames: 508000  Train_Max: 9556.49  Test_Score: 9418.75  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9878.31  PG Loss: -734.0399
+
+Sync from RL --> Nevo
+#Games: 862 #Frames: 514000  Train_Max: 9983.74  Test_Score: 9973.79  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9958.66  PG Loss: -738.1905
+
+Sync from RL --> Nevo
+#Games: 868 #Frames: 520000  Train_Max: 10120.47  Test_Score: 10199.77  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9873.68  PG Loss: -742.1437
+
+Sync from RL --> Nevo
+#Games: 874 #Frames: 526000  Train_Max: 9891.70  Test_Score: 9841.20  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10052.17  PG Loss: -744.1188
+
+Sync from RL --> Nevo
+#Games: 880 #Frames: 532000  Train_Max: 10076.31  Test_Score: 10126.55  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9755.91  PG Loss: -747.4979
+
+Sync from RL --> Nevo
+#Games: 886 #Frames: 534000  Train_Max: 702.09  Test_Score: 9796.90  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10215.80  PG Loss: -748.2407
+
+Sync from RL --> Nevo
+#Games: 892 #Frames: 536000  Train_Max: 709.73  Test_Score: 10269.35  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9895.86  PG Loss: -749.6929
+
+Sync from RL --> Nevo
+#Games: 898 #Frames: 538000  Train_Max: 715.38  Test_Score: 9817.86  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10309.61  PG Loss: -750.4980
+
+Sync from RL --> Nevo
+#Games: 904 #Frames: 544000  Train_Max: 10273.26  Test_Score: 10229.34  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10073.94  PG Loss: -752.5027
+
+Sync from RL --> Nevo
+#Games: 910 #Frames: 546000  Train_Max: 696.22  Test_Score: 9648.22  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9755.10  PG Loss: -753.5319
+
+Sync from RL --> Nevo
+#Games: 916 #Frames: 548000  Train_Max: 690.88  Test_Score: 9921.15  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9908.78  PG Loss: -754.7540
+
+Sync from RL --> Nevo
+#Games: 922 #Frames: 554000  Train_Max: 10277.27  Test_Score: 10187.72  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9437.53  PG Loss: -756.7557
+
+Sync from RL --> Nevo
+#Games: 928 #Frames: 560000  Train_Max: 9943.07  Test_Score: 9932.98  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10111.46  PG Loss: -758.9897
+
+Sync from RL --> Nevo
+#Games: 934 #Frames: 566000  Train_Max: 10235.62  Test_Score: 10208.79  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10035.06  PG Loss: -762.2227
+
+Sync from RL --> Nevo
+#Games: 940 #Frames: 572000  Train_Max: 10084.76  Test_Score: 10068.18  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10215.18  PG Loss: -764.3221
+
+Sync from RL --> Nevo
+#Games: 946 #Frames: 578000  Train_Max: 10201.15  Test_Score: 10338.13  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10202.04  PG Loss: -767.2742
+
+Sync from RL --> Nevo
+#Games: 952 #Frames: 584000  Train_Max: 10314.14  Test_Score: 10223.08  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10299.52  PG Loss: -769.8595
+
+Sync from RL --> Nevo
+#Games: 958 #Frames: 586000  Train_Max: 726.48  Test_Score: 10125.52  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10075.55  PG Loss: -771.3022
+
+Sync from RL --> Nevo
+#Games: 964 #Frames: 592000  Train_Max: 10281.02  Test_Score: 10258.98  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9575.34  PG Loss: -773.8811
+
+Sync from RL --> Nevo
+#Games: 970 #Frames: 598000  Train_Max: 9520.97  Test_Score: 9542.39  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10438.82  PG Loss: -775.5207
+
+Sync from RL --> Nevo
+#Games: 976 #Frames: 604000  Train_Max: 10469.92  Test_Score: 10432.30  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10085.58  PG Loss: -778.2003
+
+Sync from RL --> Nevo
+#Games: 982 #Frames: 606000  Train_Max: 727.00  Test_Score: 9763.22  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10163.97  PG Loss: -779.8818
+
+Sync from RL --> Nevo
+#Games: 988 #Frames: 612000  Train_Max: 10193.44  Test_Score: 10211.73  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10414.08  PG Loss: -781.6952
+
+Sync from RL --> Nevo
+#Games: 994 #Frames: 614000  Train_Max: 729.32  Test_Score: 10214.05  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10073.03  PG Loss: -782.4602
+
+Sync from RL --> Nevo
+#Games: 1000 #Frames: 620000  Train_Max: 10253.97  Test_Score: 10213.83  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10184.51  PG Loss: -784.3072
+
+Sync from RL --> Nevo
+#Games: 1006 #Frames: 626000  Train_Max: 10305.08  Test_Score: 10258.71  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10393.06  PG Loss: -784.7615
+
+Sync from RL --> Nevo
+#Games: 1012 #Frames: 628000  Train_Max: 712.17  Test_Score: 10416.50  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10358.16  PG Loss: -785.9850
+
+Sync from RL --> Nevo
+#Games: 1018 #Frames: 634000  Train_Max: 10394.90  Test_Score: 10347.00  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10301.05  PG Loss: -788.0162
+
+Sync from RL --> Nevo
+#Games: 1024 #Frames: 636000  Train_Max: 704.19  Test_Score: 10339.80  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9878.71  PG Loss: -788.6854
+
+Sync from RL --> Nevo
+#Games: 1030 #Frames: 638000  Train_Max: 716.08  Test_Score: 10310.95  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10360.72  PG Loss: -789.8423
+
+Sync from RL --> Nevo
+#Games: 1036 #Frames: 644000  Train_Max: 10348.13  Test_Score: 10357.22  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10612.41  PG Loss: -790.8233
+
+Sync from RL --> Nevo
+#Games: 1042 #Frames: 650000  Train_Max: 10537.19  Test_Score: 10663.84  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9991.98  PG Loss: -791.9243
+
+Sync from RL --> Nevo
+#Games: 1048 #Frames: 656000  Train_Max: 10482.42  Test_Score: 10398.77  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10626.80  PG Loss: -794.3412
+
+Sync from RL --> Nevo
+#Games: 1054 #Frames: 658000  Train_Max: 755.24  Test_Score: 10559.50  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 9903.35  PG Loss: -795.1083
+
+Sync from RL --> Nevo
+#Games: 1060 #Frames: 660000  Train_Max: 666.37  Test_Score: 10037.34  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10502.80  PG Loss: -795.5751
+
+Sync from RL --> Nevo
+#Games: 1066 #Frames: 662000  Train_Max: 726.95  Test_Score: 10505.01  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10569.19  PG Loss: -796.2181
+
+Sync from RL --> Nevo
+#Games: 1072 #Frames: 664000  Train_Max: 732.37  Test_Score: 10544.26  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10313.73  PG Loss: -797.0765
+
+Sync from RL --> Nevo
+#Games: 1078 #Frames: 670000  Train_Max: 10604.95  Test_Score: 10487.25  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10517.55  PG Loss: -798.7949
+
+Sync from RL --> Nevo
+#Games: 1084 #Frames: 672000  Train_Max: 732.35  Test_Score: 10468.04  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10670.25  PG Loss: -800.2462
+
+Sync from RL --> Nevo
+#Games: 1090 #Frames: 674000  Train_Max: 737.11  Test_Score: 10640.66  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10520.37  PG Loss: -800.6688
+
+Sync from RL --> Nevo
+#Games: 1096 #Frames: 680000  Train_Max: 10543.39  Test_Score: 10522.93  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10331.97  PG Loss: -802.4385
+
+Sync from RL --> Nevo
+#Games: 1102 #Frames: 682000  Train_Max: 720.32  Test_Score: 10133.50  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10491.70  PG Loss: -803.4185
+
+Sync from RL --> Nevo
+#Games: 1108 #Frames: 688000  Train_Max: 10530.54  Test_Score: 10485.53  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10552.11  PG Loss: -805.5732
+
+Sync from RL --> Nevo
+#Games: 1114 #Frames: 694000  Train_Max: 10827.35  Test_Score: 10753.06  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10347.32  PG Loss: -808.0869
+
+Sync from RL --> Nevo
+#Games: 1120 #Frames: 700000  Train_Max: 10299.75  Test_Score: 10380.65  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10851.96  PG Loss: -810.2609
+
+Sync from RL --> Nevo
+#Games: 1126 #Frames: 702000  Train_Max: 744.99  Test_Score: 10867.55  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10499.65  PG Loss: -811.4767
+
+Sync from RL --> Nevo
+#Games: 1132 #Frames: 704000  Train_Max: 737.62  Test_Score: 10518.62  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10699.66  PG Loss: -811.7840
+
+Sync from RL --> Nevo
+#Games: 1138 #Frames: 706000  Train_Max: 726.80  Test_Score: 10688.96  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10601.24  PG Loss: -812.7048
+
+Sync from RL --> Nevo
+#Games: 1144 #Frames: 712000  Train_Max: 10596.35  Test_Score: 10586.92  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10358.47  PG Loss: -812.8809
+
+Sync from RL --> Nevo
+#Games: 1150 #Frames: 718000  Train_Max: 10513.99  Test_Score: 10366.46  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10524.93  PG Loss: -815.3610
+
+Sync from RL --> Nevo
+#Games: 1156 #Frames: 720000  Train_Max: 723.15  Test_Score: 10477.21  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10308.59  PG Loss: -815.9230
+
+Sync from RL --> Nevo
+#Games: 1162 #Frames: 722000  Train_Max: 714.00  Test_Score: 9266.84  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10547.16  PG Loss: -817.3038
+
+Sync from RL --> Nevo
+#Games: 1168 #Frames: 728000  Train_Max: 10509.30  Test_Score: 10452.68  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10385.58  PG Loss: -818.5605
+
+Sync from RL --> Nevo
+#Games: 1174 #Frames: 734000  Train_Max: 10511.38  Test_Score: 10398.36  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10529.42  PG Loss: -820.1122
+
+Sync from RL --> Nevo
+#Games: 1180 #Frames: 740000  Train_Max: 10995.73  Test_Score: 10761.90  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10873.32  PG Loss: -821.2618
+
+Sync from RL --> Nevo
+#Games: 1186 #Frames: 742000  Train_Max: 734.25  Test_Score: 10611.17  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10744.78  PG Loss: -821.8824
+
+Sync from RL --> Nevo
+#Games: 1192 #Frames: 744000  Train_Max: 738.63  Test_Score: 10751.08  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10529.83  PG Loss: -822.0767
+
+Sync from RL --> Nevo
+#Games: 1198 #Frames: 750000  Train_Max: 10477.29  Test_Score: 10601.52  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10760.39  PG Loss: -823.3896
+
+Sync from RL --> Nevo
+#Games: 1204 #Frames: 752000  Train_Max: 742.69  Test_Score: 10782.46  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10618.91  PG Loss: -825.2786
+
+Sync from RL --> Nevo
+#Games: 1210 #Frames: 758000  Train_Max: 10592.85  Test_Score: 10422.16  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10463.88  PG Loss: -826.2758
+
+Sync from RL --> Nevo
+#Games: 1216 #Frames: 760000  Train_Max: 732.04  Test_Score: 10351.02  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10786.48  PG Loss: -826.6011
+
+Sync from RL --> Nevo
+#Games: 1222 #Frames: 766000  Train_Max: 10713.15  Test_Score: 10732.66  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10461.28  PG Loss: -828.2231
+
+Sync from RL --> Nevo
+#Games: 1228 #Frames: 772000  Train_Max: 10652.33  Test_Score: 10662.68  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11034.03  PG Loss: -829.9920
+
+Sync from RL --> Nevo
+#Games: 1234 #Frames: 778000  Train_Max: 11071.37  Test_Score: 10854.14  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10826.59  PG Loss: -831.5120
+
+Sync from RL --> Nevo
+#Games: 1240 #Frames: 780000  Train_Max: 749.98  Test_Score: 10907.68  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10830.68  PG Loss: -832.8336
+
+Sync from RL --> Nevo
+#Games: 1246 #Frames: 786000  Train_Max: 10995.57  Test_Score: 10818.96  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11023.08  PG Loss: -833.2041
+
+Sync from RL --> Nevo
+#Games: 1252 #Frames: 792000  Train_Max: 10913.27  Test_Score: 10955.40  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11119.41  PG Loss: -835.2552
+
+Sync from RL --> Nevo
+#Games: 1258 #Frames: 798000  Train_Max: 10996.80  Test_Score: 10983.18  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10999.59  PG Loss: -837.1003
+
+Sync from RL --> Nevo
+#Games: 1264 #Frames: 800000  Train_Max: 753.22  Test_Score: 10954.97  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10625.03  PG Loss: -837.8616
+
+Sync from RL --> Nevo
+#Games: 1270 #Frames: 806000  Train_Max: 10686.58  Test_Score: 10624.46  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10718.09  PG Loss: -840.0400
+
+Sync from RL --> Nevo
+#Games: 1276 #Frames: 808000  Train_Max: 740.37  Test_Score: 10654.69  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10761.38  PG Loss: -840.7780
+
+Sync from RL --> Nevo
+#Games: 1282 #Frames: 814000  Train_Max: 10802.57  Test_Score: 10724.85  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10807.52  PG Loss: -842.4512
+
+Sync from RL --> Nevo
+#Games: 1288 #Frames: 820000  Train_Max: 10730.33  Test_Score: 10627.20  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11023.27  PG Loss: -843.8618
+
+Sync from RL --> Nevo
+#Games: 1294 #Frames: 826000  Train_Max: 11087.37  Test_Score: 10965.22  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10851.43  PG Loss: -845.4201
+
+Sync from RL --> Nevo
+#Games: 1300 #Frames: 828000  Train_Max: 758.30  Test_Score: 11079.11  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10857.63  PG Loss: -846.4159
+
+Sync from RL --> Nevo
+#Games: 1306 #Frames: 834000  Train_Max: 11006.89  Test_Score: 10897.22  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11061.11  PG Loss: -847.4866
+
+Sync from RL --> Nevo
+#Games: 1312 #Frames: 840000  Train_Max: 11077.78  Test_Score: 11035.14  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10706.02  PG Loss: -849.0330
+
+Sync from RL --> Nevo
+#Games: 1318 #Frames: 842000  Train_Max: 761.31  Test_Score: 11169.06  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10966.86  PG Loss: -850.3396
+
+Sync from RL --> Nevo
+#Games: 1324 #Frames: 844000  Train_Max: 745.85  Test_Score: 10950.47  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10954.08  PG Loss: -850.9534
+
+Sync from RL --> Nevo
+#Games: 1330 #Frames: 850000  Train_Max: 11069.54  Test_Score: 11033.70  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10919.60  PG Loss: -852.8221
+
+Sync from RL --> Nevo
+#Games: 1336 #Frames: 856000  Train_Max: 11075.48  Test_Score: 10962.91  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10931.42  PG Loss: -854.9167
+
+Sync from RL --> Nevo
+#Games: 1342 #Frames: 862000  Train_Max: 10959.86  Test_Score: 10926.97  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11044.30  PG Loss: -856.2003
+
+Sync from RL --> Nevo
+#Games: 1348 #Frames: 868000  Train_Max: 10989.53  Test_Score: 11007.84  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10884.98  PG Loss: -858.2672
+
+Sync from RL --> Nevo
+#Games: 1354 #Frames: 870000  Train_Max: 759.80  Test_Score: 10986.12  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10625.66  PG Loss: -859.6342
+
+Sync from RL --> Nevo
+#Games: 1360 #Frames: 872000  Train_Max: 767.59  Test_Score: 10694.89  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11039.46  PG Loss: -859.3389
+
+Sync from RL --> Nevo
+#Games: 1366 #Frames: 874000  Train_Max: 755.63  Test_Score: 11077.06  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11108.09  PG Loss: -860.3804
+
+Sync from RL --> Nevo
+#Games: 1372 #Frames: 880000  Train_Max: 11234.56  Test_Score: 11170.01  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10980.31  PG Loss: -862.0944
+
+Sync from RL --> Nevo
+#Games: 1378 #Frames: 882000  Train_Max: 762.24  Test_Score: 11048.89  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10934.01  PG Loss: -861.5101
+
+Sync from RL --> Nevo
+#Games: 1384 #Frames: 888000  Train_Max: 10920.67  Test_Score: 10934.39  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10845.07  PG Loss: -863.3707
+
+Sync from RL --> Nevo
+#Games: 1390 #Frames: 890000  Train_Max: 715.32  Test_Score: 10035.97  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11022.91  PG Loss: -864.0964
+
+Sync from RL --> Nevo
+#Games: 1396 #Frames: 892000  Train_Max: 762.67  Test_Score: 10976.36  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10883.46  PG Loss: -864.9477
+
+Sync from RL --> Nevo
+#Games: 1402 #Frames: 894000  Train_Max: 769.11  Test_Score: 10862.99  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10621.26  PG Loss: -865.2766
+
+Sync from RL --> Nevo
+#Games: 1408 #Frames: 896000  Train_Max: 751.73  Test_Score: 10803.17  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10725.15  PG Loss: -865.7570
+
+Sync from RL --> Nevo
+#Games: 1414 #Frames: 898000  Train_Max: 744.14  Test_Score: 10712.36  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10926.42  PG Loss: -865.6080
+
+Sync from RL --> Nevo
+#Games: 1420 #Frames: 904000  Train_Max: 11134.90  Test_Score: 10898.72  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11179.84  PG Loss: -867.7142
+
+Sync from RL --> Nevo
+#Games: 1426 #Frames: 906000  Train_Max: 756.76  Test_Score: 11171.40  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10999.69  PG Loss: -868.0052
+
+Sync from RL --> Nevo
+#Games: 1432 #Frames: 908000  Train_Max: 758.67  Test_Score: 11146.43  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11025.31  PG Loss: -869.6926
+
+Sync from RL --> Nevo
+#Games: 1438 #Frames: 914000  Train_Max: 11235.62  Test_Score: 11112.66  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11043.98  PG Loss: -870.5530
+
+Sync from RL --> Nevo
+#Games: 1444 #Frames: 916000  Train_Max: 755.44  Test_Score: 11073.64  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11254.65  PG Loss: -871.5592
+
+Sync from RL --> Nevo
+#Games: 1450 #Frames: 922000  Train_Max: 11496.66  Test_Score: 11315.94  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11167.84  PG Loss: -872.7993
+
+Sync from RL --> Nevo
+#Games: 1456 #Frames: 928000  Train_Max: 11339.08  Test_Score: 11285.03  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11073.52  PG Loss: -874.3698
+
+Sync from RL --> Nevo
+#Games: 1462 #Frames: 934000  Train_Max: 11198.32  Test_Score: 11115.04  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11083.16  PG Loss: -875.8865
+
+Sync from RL --> Nevo
+#Games: 1468 #Frames: 940000  Train_Max: 11302.73  Test_Score: 11320.51  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11200.03  PG Loss: -876.9483
+
+Sync from RL --> Nevo
+#Games: 1474 #Frames: 942000  Train_Max: 771.66  Test_Score: 11224.68  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11218.75  PG Loss: -878.3472
+
+Sync from RL --> Nevo
+#Games: 1480 #Frames: 948000  Train_Max: 11192.28  Test_Score: 11270.63  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11267.85  PG Loss: -878.3500
+
+Sync from RL --> Nevo
+#Games: 1486 #Frames: 950000  Train_Max: 743.55  Test_Score: 10896.48  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11033.31  PG Loss: -879.5486
+
+Sync from RL --> Nevo
+#Games: 1492 #Frames: 952000  Train_Max: 731.65  Test_Score: 11028.91  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11034.66  PG Loss: -880.0203
+
+Sync from RL --> Nevo
+#Games: 1498 #Frames: 954000  Train_Max: 763.49  Test_Score: 10670.07  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11036.94  PG Loss: -880.0923
+
+Sync from RL --> Nevo
+#Games: 1504 #Frames: 960000  Train_Max: 10947.97  Test_Score: 11091.17  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10917.56  PG Loss: -882.0522
+
+Sync from RL --> Nevo
+#Games: 1510 #Frames: 962000  Train_Max: 765.07  Test_Score: 10973.97  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11190.86  PG Loss: -882.4366
+
+Sync from RL --> Nevo
+#Games: 1516 #Frames: 964000  Train_Max: 770.08  Test_Score: 11072.79  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11285.31  PG Loss: -882.0304
+
+Sync from RL --> Nevo
+#Games: 1522 #Frames: 970000  Train_Max: 11459.21  Test_Score: 11342.89  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11180.29  PG Loss: -882.3792
+
+Sync from RL --> Nevo
+#Games: 1528 #Frames: 972000  Train_Max: 761.97  Test_Score: 11137.01  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11040.42  PG Loss: -881.3441
+
+Sync from RL --> Nevo
+#Games: 1534 #Frames: 978000  Train_Max: 10930.84  Test_Score: 11014.38  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11288.98  PG Loss: -883.1544
+
+Sync from RL --> Nevo
+#Games: 1540 #Frames: 980000  Train_Max: 764.19  Test_Score: 11209.40  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11028.29  PG Loss: -883.4811
+
+Sync from RL --> Nevo
+#Games: 1546 #Frames: 986000  Train_Max: 11054.79  Test_Score: 10989.72  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11253.28  PG Loss: -884.9377
+
+Sync from RL --> Nevo
+#Games: 1552 #Frames: 992000  Train_Max: 11338.07  Test_Score: 11280.18  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11348.48  PG Loss: -886.4054
+
+Sync from RL --> Nevo
+#Games: 1558 #Frames: 994000  Train_Max: 777.01  Test_Score: 11181.82  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11244.57  PG Loss: -887.0972
+
+Sync from RL --> Nevo
+#Games: 1564 #Frames: 996000  Train_Max: 767.97  Test_Score: 11328.21  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 11236.70  PG Loss: -887.9062
+
+Sync from RL --> Nevo
+#Games: 1570 #Frames: 1002000  Train_Max: 11253.40  Test_Score: 11235.53  Avg: 0.00  ENV:  HalfCheetah-v2  DDPGHalfCheetah-v2 Reward: 10986.37  PG Loss: -888.2320

@@ -1,0 +1,3982 @@
+env.action_space.low [-1. -1. -1. -1. -1. -1. -1. -1.] env.action_space.high [1. 1. 1. 1. 1. 1. 1. 1.]
+{   'EA': True,
+    'EA_actor_alpha': 1.0,
+    'K': 1,
+    'OFF_TYPE': 1,
+    'RL': True,
+    'TD3_noise': 0.2,
+    'action_dim': 8,
+    'actor_alpha': 1.0,
+    'alpha': 0.7,
+    'batch_size': 128,
+    'beta_zero': 0.5,
+    'buffer_size': 1000000,
+    'crossover_prob': 0.0,
+    'detach_z': False,
+    'device': device(type='cpu'),
+    'distil': True,
+    'distil_type': 'fitness',
+    'elite_fraction': 0.2,
+    'env_name': 'Ant-v2',
+    'frac': 0.7,
+    'frac_frames_train': 1.0,
+    'gamma': 0.99,
+    'individual_bs': 8000,
+    'init_steps': 10000,
+    'intention': False,
+    'learn_start': 15627.0,
+    'ls': 300,
+    'mutation_batch_size': 256,
+    'mutation_mag': 0.05,
+    'mutation_noise': False,
+    'mutation_prob': 0.9,
+    'name': 'Steps_200_theta_0.5_eval_1_rs_prob_0.05_frac_p_0.7_our_M_1_0.2_1_5_1.0_64_noise_0.2_Pavn_detach_False_1.0_actorloss_MI_sa_s_0.0_random_K_1_Ant-v2_0.005',
+    'next_save': 200,
+    'ns': False,
+    'ns_epochs': 10,
+    'num_evals': 1,
+    'num_frames': 1000000,
+    'opstat': True,
+    'opstat_freq': 1,
+    'per': False,
+    'pop_size': 5,
+    'pr': 64,
+    'prob_reset_and_sup': 0.05,
+    'proximal_mut': False,
+    'random_choose': False,
+    'render': False,
+    'replace_old': True,
+    'rl_to_ea_synch_period': 1,
+    'save_foldername': './logs/Steps_200_theta_0.5_eval_1_rs_prob_0.05_frac_p_0.7_our_M_1_0.2_1_5_1.0_64_noise_0.2_Pavn_detach_False_1.0_actorloss_MI_sa_s_0.0_random_K_1_Ant-v2_0.005',
+    'save_periodic': False,
+    'seed': 7,
+    'state_alpha': 0.0,
+    'state_dim': 111,
+    'tau': 0.005,
+    'test_operators': False,
+    'theta': 0.5,
+    'time_steps': 200,
+    'total_steps': 1000000,
+    'use_all': False,
+    'use_done_mask': True,
+    'use_ln': True,
+    'verbose_crossover': True,
+    'verbose_mut': False}
+Running Ant-v2  State_dim: 111  Action_dim: 8
+==================== Mutation ======================
+Fitness before:  199.2272696425506
+Fitness after:  34.25731398638479
+==================== Mutation ======================
+Fitness before:  94.9029005066642
+Fitness after:  165.26365786390633
+==================== Mutation ======================
+Fitness before:  259.8086284772962
+Fitness after:  -33.511040458267615
+#Games: 1 #Frames: 57  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 992.65  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  605.9683626911086
+Fitness after:  178.03552157908547
+==================== Mutation ======================
+Fitness before:  24.31452865177058
+Fitness after:  91.69209921841728
+#Games: 2 #Frames: 260  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 991.89  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -38.60908542128003
+Fitness after:  -78.80198266615156
+==================== Mutation ======================
+Fitness before:  612.8005970287757
+Fitness after:  668.6218599612534
+==================== Mutation ======================
+Fitness before:  86.7946449459976
+Fitness after:  105.24743766341938
+==================== Mutation ======================
+Fitness before:  -19.397296796323182
+Fitness after:  -37.0830146572987
+#Games: 3 #Frames: 318  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 991.53  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -99.71218556116594
+Fitness after:  -276.13201753769573
+==================== Mutation ======================
+Fitness before:  -106.11432419384604
+Fitness after:  -176.48180480830655
+==================== Mutation ======================
+Fitness before:  114.12357212723994
+Fitness after:  89.9411114589623
+==================== Mutation ======================
+Fitness before:  -30.615536810673035
+Fitness after:  -237.71868250046
+#Games: 4 #Frames: 361  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 993.38  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -38.23213565612319
+Fitness after:  -228.4300653169095
+==================== Mutation ======================
+Fitness before:  -321.9595281125065
+Fitness after:  -210.83735292786884
+==================== Mutation ======================
+Fitness before:  17.927169140453785
+Fitness after:  -53.017865449221894
+==================== Mutation ======================
+Fitness before:  -279.78794965124945
+Fitness after:  -311.4663985021155
+#Games: 5 #Frames: 620  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 991.32  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -261.5460502060334
+Fitness after:  -43.90281065426055
+==================== Mutation ======================
+Fitness before:  -42.494245290111934
+Fitness after:  -5.358697872048016
+==================== Mutation ======================
+Fitness before:  -53.02613886717668
+Fitness after:  -86.21198706037592
+#Games: 6 #Frames: 697  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 993.78  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -30.432405476714848
+Fitness after:  -35.39382630120802
+==================== Mutation ======================
+Fitness before:  -210.40253429306645
+Fitness after:  -81.51950881481993
+==================== Mutation ======================
+Fitness before:  -47.913889493478
+Fitness after:  -36.62688620035058
+==================== Mutation ======================
+Fitness before:  -65.6339635239207
+Fitness after:  -10.760310923798436
+#Games: 7 #Frames: 729  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 995.34  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -75.01016739230427
+Fitness after:  -44.98833678558952
+==================== Mutation ======================
+Fitness before:  -46.61334936044691
+Fitness after:  -314.7276943748319
+==================== Mutation ======================
+Fitness before:  -180.53375400852892
+Fitness after:  -30.801522823045605
+==================== Mutation ======================
+Fitness before:  -24.18895491303508
+Fitness after:  -67.19792989065567
+#Games: 8 #Frames: 743  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 993.61  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -173.89408707753844
+Fitness after:  -64.04660174409244
+==================== Mutation ======================
+Fitness before:  -67.85436161692385
+Fitness after:  -342.2339627608409
+==================== Mutation ======================
+Fitness before:  -572.438665609017
+Fitness after:  -526.2661766330715
+==================== Mutation ======================
+Fitness before:  -34.71993756696702
+Fitness after:  -41.09963123554154
+#Games: 9 #Frames: 850  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 992.28  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -149.6185060801876
+Fitness after:  -92.01220164372623
+==================== Mutation ======================
+Fitness before:  -121.087020782842
+Fitness after:  -106.53514450467688
+==================== Mutation ======================
+Fitness before:  -23.806582455943456
+Fitness after:  -383.94712721670095
+#Games: 10 #Frames: 881  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 992.72  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -44.47599363315599
+Fitness after:  -43.84497169829226
+==================== Mutation ======================
+Fitness before:  -75.33996642041424
+Fitness after:  -89.0610440958199
+==================== Mutation ======================
+Fitness before:  -31.780501558138788
+Fitness after:  -194.64829578317665
+==================== Mutation ======================
+Fitness before:  -287.44159787529526
+Fitness after:  -30.39585493457716
+#Games: 11 #Frames: 931  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 991.63  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -42.480701098178784
+Fitness after:  -51.77935245408609
+==================== Mutation ======================
+Fitness before:  -53.86900891098751
+Fitness after:  -49.01426078690845
+#Games: 12 #Frames: 956  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 991.36  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -41.69432514096154
+Fitness after:  -35.82769887125984
+==================== Mutation ======================
+Fitness before:  -97.04857745086805
+Fitness after:  -44.36768204489616
+==================== Mutation ======================
+Fitness before:  -227.08089310640017
+Fitness after:  -220.29222980479526
+==================== Mutation ======================
+Fitness before:  -47.94389676926848
+Fitness after:  -81.93086867473767
+#Games: 13 #Frames: 1956  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 994.21  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -37.21963365921688
+Fitness after:  -52.06471636766628
+==================== Mutation ======================
+Fitness before:  -190.58751917009891
+Fitness after:  -352.60210596703166
+==================== Mutation ======================
+Fitness before:  -47.446003110219145
+Fitness after:  -37.765309771599654
+#Games: 14 #Frames: 2073  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 995.45  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -36.468483172419525
+Fitness after:  -44.2007304153057
+==================== Mutation ======================
+Fitness before:  -199.89856189225785
+Fitness after:  -14.582803476903663
+==================== Mutation ======================
+Fitness before:  -64.98962643140588
+Fitness after:  -50.524273886977554
+#Games: 15 #Frames: 2116  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 992.66  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -45.461229414657154
+Fitness after:  -25.825413960250934
+==================== Mutation ======================
+Fitness before:  -72.23448973486626
+Fitness after:  -71.87622224828485
+==================== Mutation ======================
+Fitness before:  -377.8698034405169
+Fitness after:  -6.802668712200273
+==================== Mutation ======================
+Fitness before:  -29.887123124983287
+Fitness after:  -27.639610345076637
+#Games: 16 #Frames: 2238  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 993.49  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -78.8119133786879
+Fitness after:  -31.83035654251295
+==================== Mutation ======================
+Fitness before:  -387.39407322462705
+Fitness after:  -44.502055772729264
+==================== Mutation ======================
+Fitness before:  -43.792085333116034
+Fitness after:  -46.513913112759084
+#Games: 17 #Frames: 3238  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 991.71  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -101.9559975674326
+Fitness after:  -55.93227585054429
+==================== Mutation ======================
+Fitness before:  -28.94251091154568
+Fitness after:  -297.7818820128323
+==================== Mutation ======================
+Fitness before:  -48.8747316012999
+Fitness after:  -72.33700118701067
+#Games: 18 #Frames: 3285  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 990.16  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -45.270227094849766
+Fitness after:  -40.18776754155918
+==================== Mutation ======================
+Fitness before:  -43.468098481494714
+Fitness after:  -65.61154452289985
+==================== Mutation ======================
+Fitness before:  -55.34264974617578
+Fitness after:  -30.30594596529309
+==================== Mutation ======================
+Fitness before:  -36.12721149240234
+Fitness after:  -26.54052240835042
+#Games: 19 #Frames: 3416  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 995.02  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -71.14894761703107
+Fitness after:  -48.66358411886857
+==================== Mutation ======================
+Fitness before:  -60.4478221177137
+Fitness after:  -26.64609636403842
+==================== Mutation ======================
+Fitness before:  -26.678660286732203
+Fitness after:  -30.135185717613467
+==================== Mutation ======================
+Fitness before:  -72.03014631127414
+Fitness after:  -66.07747733357768
+#Games: 20 #Frames: 3463  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 994.18  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -55.16446940369813
+Fitness after:  -43.01111855494342
+==================== Mutation ======================
+Fitness before:  -43.01476573799378
+Fitness after:  -55.82561127128256
+==================== Mutation ======================
+Fitness before:  -23.91840175159377
+Fitness after:  -28.479897117349026
+==================== Mutation ======================
+Fitness before:  -40.78026449184348
+Fitness after:  -52.26884797698168
+#Games: 21 #Frames: 3485  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 992.74  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -41.82623875699173
+Fitness after:  -38.52795100060646
+==================== Mutation ======================
+Fitness before:  -34.042541883590765
+Fitness after:  -39.79793084816684
+==================== Mutation ======================
+Fitness before:  -34.02319592399682
+Fitness after:  -28.401124330626622
+#Games: 22 #Frames: 3575  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 992.34  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -41.12698840627236
+Fitness after:  -58.47759973120824
+==================== Mutation ======================
+Fitness before:  -46.537484187210836
+Fitness after:  -93.87901802579441
+==================== Mutation ======================
+Fitness before:  -21.590088536848384
+Fitness after:  -493.10069709261745
+==================== Mutation ======================
+Fitness before:  -53.05815269454272
+Fitness after:  -36.21777579605329
+#Games: 23 #Frames: 3622  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 991.19  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -44.68423042360562
+Fitness after:  -36.49355418542378
+==================== Mutation ======================
+Fitness before:  -44.24797592030091
+Fitness after:  -46.55391608506336
+==================== Mutation ======================
+Fitness before:  -32.667451958576315
+Fitness after:  -380.08068111480674
+#Games: 24 #Frames: 3674  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 990.10  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -55.090448012900126
+Fitness after:  -40.65617821778476
+==================== Mutation ======================
+Fitness before:  -40.604214188379125
+Fitness after:  -51.46854426011983
+==================== Mutation ======================
+Fitness before:  -33.0571039451347
+Fitness after:  -39.909105957529704
+#Games: 25 #Frames: 4674  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 991.40  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -79.77944284095899
+Fitness after:  -45.90047541755972
+==================== Mutation ======================
+Fitness before:  -34.97125292411057
+Fitness after:  -67.75954868598542
+==================== Mutation ======================
+Fitness before:  -91.52269663190218
+Fitness after:  -35.94286535058154
+==================== Mutation ======================
+Fitness before:  -40.649165511006196
+Fitness after:  -39.021275920622635
+#Games: 26 #Frames: 4809  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 993.20  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -60.02186978508846
+Fitness after:  -33.08986418909267
+==================== Mutation ======================
+Fitness before:  -35.4948325857756
+Fitness after:  -51.35686390839739
+==================== Mutation ======================
+Fitness before:  -38.28663916421452
+Fitness after:  -58.83918942109498
+==================== Mutation ======================
+Fitness before:  -43.91192144155097
+Fitness after:  -49.42392202962374
+#Games: 27 #Frames: 4856  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 994.08  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -35.19487098198791
+Fitness after:  -33.44242292662075
+==================== Mutation ======================
+Fitness before:  -74.0908806122523
+Fitness after:  -568.8113427912884
+==================== Mutation ======================
+Fitness before:  -49.8906520725314
+Fitness after:  -43.15577735130301
+#Games: 28 #Frames: 4882  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 992.26  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -50.06021317855959
+Fitness after:  -57.796943232314675
+==================== Mutation ======================
+Fitness before:  -42.543194580160545
+Fitness after:  -56.80931456601629
+==================== Mutation ======================
+Fitness before:  -38.91294724342386
+Fitness after:  -43.249064969875676
+#Games: 29 #Frames: 4925  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 992.10  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -36.493179570060185
+Fitness after:  -65.04518029199542
+==================== Mutation ======================
+Fitness before:  -78.16263041540432
+Fitness after:  -48.05474051435245
+==================== Mutation ======================
+Fitness before:  -71.27904470910666
+Fitness after:  -74.26893929536189
+==================== Mutation ======================
+Fitness before:  -39.82678060796271
+Fitness after:  -65.15047910268834
+#Games: 30 #Frames: 5041  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 992.70  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -39.8971463635571
+Fitness after:  -437.4330937354989
+==================== Mutation ======================
+Fitness before:  -101.36485279427369
+Fitness after:  -50.96884118940034
+==================== Mutation ======================
+Fitness before:  -571.1942961428501
+Fitness after:  -51.733870944381145
+==================== Mutation ======================
+Fitness before:  -41.934032230951175
+Fitness after:  -45.41685374609598
+#Games: 31 #Frames: 5133  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 991.92  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -62.50069380108922
+Fitness after:  -48.70641785983294
+==================== Mutation ======================
+Fitness before:  -54.013872531756206
+Fitness after:  -74.89520870601011
+==================== Mutation ======================
+Fitness before:  -37.16570333139728
+Fitness after:  -29.413688255046793
+==================== Mutation ======================
+Fitness before:  -52.516119627028374
+Fitness after:  -59.5182337061158
+#Games: 32 #Frames: 5209  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 993.07  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -49.869661262517035
+Fitness after:  -46.395317497529675
+==================== Mutation ======================
+Fitness before:  -56.297584788333324
+Fitness after:  -35.69613363760035
+==================== Mutation ======================
+Fitness before:  -57.46992392765107
+Fitness after:  -38.3783654546521
+==================== Mutation ======================
+Fitness before:  -46.60995524391664
+Fitness after:  -55.14613322856608
+#Games: 33 #Frames: 5354  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 989.69  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -45.23439187213857
+Fitness after:  -88.30908383046498
+==================== Mutation ======================
+Fitness before:  -50.620905556892
+Fitness after:  -43.514278273773996
+==================== Mutation ======================
+Fitness before:  -59.83767935042118
+Fitness after:  -51.33228055692534
+#Games: 34 #Frames: 5550  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 992.67  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -75.27246894354809
+Fitness after:  -59.53397269883639
+==================== Mutation ======================
+Fitness before:  -69.27276222267834
+Fitness after:  -55.32356528426703
+==================== Mutation ======================
+Fitness before:  -51.11357974187706
+Fitness after:  -44.23884663977636
+#Games: 35 #Frames: 6550  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 993.59  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -54.24776216877963
+Fitness after:  -39.21298081158769
+==================== Mutation ======================
+Fitness before:  -46.79102167064663
+Fitness after:  -51.47356556608683
+==================== Mutation ======================
+Fitness before:  -54.86822219573675
+Fitness after:  -49.76787531195721
+==================== Mutation ======================
+Fitness before:  -465.2382925876088
+Fitness after:  -79.60069762611573
+#Games: 36 #Frames: 6646  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 994.07  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -79.2166957993581
+Fitness after:  -37.711330110954286
+==================== Mutation ======================
+Fitness before:  -52.37015837286818
+Fitness after:  -44.339389287047176
+==================== Mutation ======================
+Fitness before:  -48.19223240690683
+Fitness after:  -49.46659321561283
+==================== Mutation ======================
+Fitness before:  -74.84239143622372
+Fitness after:  -38.47899084511091
+#Games: 37 #Frames: 6663  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 990.21  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -51.97034365053253
+Fitness after:  -41.2315011369392
+==================== Mutation ======================
+Fitness before:  -36.61066072851197
+Fitness after:  -48.87990240395481
+==================== Mutation ======================
+Fitness before:  -89.01030915849904
+Fitness after:  -62.46706564248227
+==================== Mutation ======================
+Fitness before:  -54.07237347515047
+Fitness after:  -90.41421723468832
+#Games: 38 #Frames: 6822  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 991.34  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -57.71569115070397
+Fitness after:  -70.2534005993991
+==================== Mutation ======================
+Fitness before:  -42.637339224993944
+Fitness after:  -63.137975154802476
+#Games: 39 #Frames: 6841  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 992.29  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -53.120071568151424
+Fitness after:  -51.57670938452136
+==================== Mutation ======================
+Fitness before:  -67.85193495870021
+Fitness after:  -48.881939765401704
+==================== Mutation ======================
+Fitness before:  -84.03559369268001
+Fitness after:  -484.7283342995188
+#Games: 40 #Frames: 6882  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 991.95  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -83.62725901870563
+Fitness after:  -74.23488453154856
+==================== Mutation ======================
+Fitness before:  -43.15743642466939
+Fitness after:  -47.80127992540109
+==================== Mutation ======================
+Fitness before:  -44.255949634332296
+Fitness after:  -97.01998889366034
+==================== Mutation ======================
+Fitness before:  -57.162017524853255
+Fitness after:  -206.0166031036377
+#Games: 41 #Frames: 7882  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 994.90  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -33.34929692386101
+Fitness after:  -51.03730819036
+==================== Mutation ======================
+Fitness before:  -47.98379763901693
+Fitness after:  -43.901935147213706
+==================== Mutation ======================
+Fitness before:  -38.471951465916035
+Fitness after:  -40.86372157906529
+==================== Mutation ======================
+Fitness before:  -50.3793068545212
+Fitness after:  -54.9008254770804
+#Games: 42 #Frames: 7959  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 991.85  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -197.49270004304202
+Fitness after:  -64.32813713480107
+==================== Mutation ======================
+Fitness before:  -133.66817729229643
+Fitness after:  -62.22763324434992
+==================== Mutation ======================
+Fitness before:  -45.87440183328643
+Fitness after:  -49.82295736131606
+==================== Mutation ======================
+Fitness before:  -40.79641160465782
+Fitness after:  -40.79853458378476
+#Games: 43 #Frames: 7987  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 992.47  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -29.14771602574167
+Fitness after:  -56.564146298347694
+==================== Mutation ======================
+Fitness before:  -60.22539375787242
+Fitness after:  -67.85881713393273
+==================== Mutation ======================
+Fitness before:  -32.459297899698115
+Fitness after:  -56.69645883759817
+==================== Mutation ======================
+Fitness before:  -57.92307362177263
+Fitness after:  -640.2733413979536
+#Games: 44 #Frames: 8088  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 992.18  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -39.83357222475937
+Fitness after:  -30.59270980802723
+==================== Mutation ======================
+Fitness before:  -64.01654341704156
+Fitness after:  -80.05750009910238
+==================== Mutation ======================
+Fitness before:  -38.54508848293907
+Fitness after:  -63.882054455956926
+#Games: 45 #Frames: 8121  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 990.33  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -81.52726612144704
+Fitness after:  -115.05012099116723
+==================== Mutation ======================
+Fitness before:  -42.73692147947098
+Fitness after:  -42.74585447683753
+==================== Mutation ======================
+Fitness before:  -54.22062904380586
+Fitness after:  -109.51225855638123
+==================== Mutation ======================
+Fitness before:  -32.43085362401409
+Fitness after:  -48.77178164796269
+#Games: 46 #Frames: 8303  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 993.26  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -59.59555974999936
+Fitness after:  -67.56115447986136
+==================== Mutation ======================
+Fitness before:  -43.91944375084665
+Fitness after:  -36.17384582466414
+==================== Mutation ======================
+Fitness before:  -83.76755581006509
+Fitness after:  -81.98809497837641
+==================== Mutation ======================
+Fitness before:  -58.79997849877141
+Fitness after:  -49.99407717333067
+#Games: 47 #Frames: 8483  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 992.08  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -93.75134677554789
+Fitness after:  -62.42986788084094
+==================== Mutation ======================
+Fitness before:  -38.718005629496844
+Fitness after:  -42.27318609523168
+==================== Mutation ======================
+Fitness before:  -72.85726254423442
+Fitness after:  -72.06556770359065
+==================== Mutation ======================
+Fitness before:  -46.78885386981838
+Fitness after:  -43.37725439388521
+#Games: 48 #Frames: 8528  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 992.08  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -55.83691379535384
+Fitness after:  -124.50416892824998
+==================== Mutation ======================
+Fitness before:  -100.61854445730015
+Fitness after:  -95.44665896504566
+==================== Mutation ======================
+Fitness before:  -359.72697425095714
+Fitness after:  -83.0698902922292
+==================== Mutation ======================
+Fitness before:  -42.90727296075717
+Fitness after:  -32.539408301857144
+#Games: 49 #Frames: 8665  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 990.75  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -69.24655805686942
+Fitness after:  -42.44341015897019
+==================== Mutation ======================
+Fitness before:  -56.22283174443546
+Fitness after:  -62.913578753317914
+==================== Mutation ======================
+Fitness before:  -63.39228336852641
+Fitness after:  -38.51471993557417
+#Games: 50 #Frames: 8731  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 992.06  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -76.71481553007432
+Fitness after:  -46.49660058748334
+==================== Mutation ======================
+Fitness before:  -42.82534293540784
+Fitness after:  -57.62161108594938
+==================== Mutation ======================
+Fitness before:  -60.36149917789267
+Fitness after:  -41.80895195796821
+==================== Mutation ======================
+Fitness before:  -65.59580912168441
+Fitness after:  -54.79262575224825
+#Games: 51 #Frames: 8862  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 990.58  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -47.835511972027184
+Fitness after:  -71.59015475869569
+==================== Mutation ======================
+Fitness before:  -68.7935741212483
+Fitness after:  -56.730136895059765
+==================== Mutation ======================
+Fitness before:  -33.81571807852028
+Fitness after:  -37.97362985417688
+==================== Mutation ======================
+Fitness before:  -70.16059795856879
+Fitness after:  -47.27760916205367
+#Games: 52 #Frames: 8896  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 991.64  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -88.9838445453581
+Fitness after:  -39.395022103089666
+==================== Mutation ======================
+Fitness before:  -95.16012375965089
+Fitness after:  -61.90073965383785
+==================== Mutation ======================
+Fitness before:  -88.80206908107513
+Fitness after:  -45.741449514203524
+#Games: 53 #Frames: 8929  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 994.99  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -44.33594838719259
+Fitness after:  -46.64974243606374
+==================== Mutation ======================
+Fitness before:  -57.41524430294684
+Fitness after:  -84.08924306496793
+==================== Mutation ======================
+Fitness before:  -47.16960628698338
+Fitness after:  -44.5098207460555
+==================== Mutation ======================
+Fitness before:  -55.51573618325699
+Fitness after:  -72.69223718233096
+#Games: 54 #Frames: 8939  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 991.14  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -54.955018395064414
+Fitness after:  -55.987914721402795
+==================== Mutation ======================
+Fitness before:  -43.681322599377395
+Fitness after:  -41.67619581759286
+==================== Mutation ======================
+Fitness before:  -31.596095369966815
+Fitness after:  -55.54197118738953
+==================== Mutation ======================
+Fitness before:  -71.21639697383863
+Fitness after:  -38.245940824763146
+#Games: 55 #Frames: 8959  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 992.82  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -48.46022022264858
+Fitness after:  -34.04545577517935
+==================== Mutation ======================
+Fitness before:  -40.95426619984164
+Fitness after:  -61.22581592740754
+==================== Mutation ======================
+Fitness before:  -70.00841720781574
+Fitness after:  -34.489612986165625
+==================== Mutation ======================
+Fitness before:  -51.18504720592908
+Fitness after:  -40.577273184913714
+#Games: 56 #Frames: 9959  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 991.99  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -74.39061113902406
+Fitness after:  -80.2131040329197
+==================== Mutation ======================
+Fitness before:  -61.91947737054562
+Fitness after:  -48.0501054285838
+==================== Mutation ======================
+Fitness before:  -70.2988268326516
+Fitness after:  -571.4867650704439
+==================== Mutation ======================
+Fitness before:  -33.063407327301725
+Fitness after:  -30.351284398580127
+#Games: 57 #Frames: 9992  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 991.61  PG Loss: 0.0000
+
+==================== Mutation ======================
+Fitness before:  -37.034292336242274
+Fitness after:  -46.079862184834006
+==================== Mutation ======================
+Fitness before:  -85.4717242310833
+Fitness after:  -45.33387247954861
+==================== Mutation ======================
+Fitness before:  -47.400251126306486
+Fitness after:  -362.04757810060175
+==================== Mutation ======================
+Fitness before:  -39.86800441033298
+Fitness after:  -64.97429882897191
+Sync from RL --> Nevo
+#Games: 58 #Frames: 10248  Train_Max: 0.00  Test_Score: 0.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: -1479.68  PG Loss: 0.3454
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.3661333680152893
+Parent 1 -57.77609087515568
+Parent 2 -1783.083164059072
+Crossover performance:  -2316.412610599623
+==================== Mutation ======================
+Fitness before:  -1776.631645166171
+Fitness after:  -606.1395600900396
+==================== Mutation ======================
+Fitness before:  -2343.7184096326805
+Fitness after:  -2531.8022893240222
+==================== Mutation ======================
+Fitness before:  -96.8715493060566
+Fitness after:  -78.54584297631342
+==================== Mutation ======================
+Fitness before:  -38.84069163372934
+Fitness after:  -33.69664012461875
+Sync from RL --> Nevo
+#Games: 64 #Frames: 10397  Train_Max: -38.55  Test_Score: -35.79  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: -2892.66  PG Loss: 0.6068
+
+==================== Distillation Crossover ======================
+MSE Loss: 4.7301661467713527e-07
+Parent 1 -2448.7014107962627
+Parent 2 -2450.6368059805754
+Crossover performance:  -2446.7570887842985
+==================== Mutation ======================
+Fitness before:  -2450.4236414559464
+Fitness after:  -2450.854486045117
+==================== Mutation ======================
+Fitness before:  -2897.9597370504757
+Fitness after:  -2895.0521413745623
+==================== Mutation ======================
+Fitness before:  -2985.1521787268503
+Fitness after:  -2985.2600534813573
+==================== Mutation ======================
+Fitness before:  -2447.3998922590677
+Fitness after:  -2446.819103428769
+Sync from RL --> Nevo
+#Games: 70 #Frames: 16397  Train_Max: -2448.64  Test_Score: -2449.97  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 334.44  PG Loss: 2.1919
+
+==================== Distillation Crossover ======================
+MSE Loss: 3.098134455647994e-08
+Parent 1 873.8364212738059
+Parent 2 871.0048271830394
+Crossover performance:  880.7523297994187
+==================== Mutation ======================
+Fitness before:  877.6028242675872
+Fitness after:  388.5271191514386
+==================== Mutation ======================
+Fitness before:  352.69790922925137
+Fitness after:  -59.969132292704195
+==================== Mutation ======================
+Fitness before:  901.3183454518152
+Fitness after:  888.5860327269405
+==================== Mutation ======================
+Fitness before:  877.3445139895742
+Fitness after:  912.3524587623231
+Sync from RL --> Nevo
+#Games: 76 #Frames: 18397  Train_Max: 83.96  Test_Score: 876.79  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 526.04  PG Loss: 5.7444
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.03234609672799706
+Parent 1 780.1016067826961
+Parent 2 432.78895836373067
+Crossover performance:  682.2574885759243
+==================== Distillation Crossover ======================
+MSE Loss: 8.272305276335601e-08
+Parent 1 837.810137911259
+Parent 2 843.3632417370766
+Crossover performance:  847.1378364415461
+==================== Mutation ======================
+Fitness before:  846.5324806243282
+Fitness after:  242.79934516615472
+==================== Mutation ======================
+Fitness before:  839.2131382682301
+Fitness after:  258.50060097193835
+==================== Mutation ======================
+Fitness before:  525.6497188696179
+Fitness after:  -97.1813987522049
+==================== Mutation ======================
+Fitness before:  481.48343836630073
+Fitness after:  471.8607101666106
+Sync from RL --> Nevo
+#Games: 82 #Frames: 20397  Train_Max: 79.32  Test_Score: 826.25  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: -16.84  PG Loss: 2.4405
+
+==================== Mutation ======================
+Fitness before:  -17.67331462614878
+Fitness after:  3.2684815088425436
+==================== Mutation ======================
+Fitness before:  453.4330729174661
+Fitness after:  -388.0702924868061
+==================== Mutation ======================
+Fitness before:  -73.35327556932899
+Fitness after:  -85.84704193921425
+==================== Mutation ======================
+Fitness before:  -591.5574069999241
+Fitness after:  -1377.2978033141408
+Sync from RL --> Nevo
+#Games: 88 #Frames: 22279  Train_Max: 51.67  Test_Score: 447.42  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 32.75  PG Loss: -1.8218
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.13667468260973692
+Parent 1 43.48333254043582
+Parent 2 -706.6086193224601
+Crossover performance:  -632.2168834119068
+==================== Mutation ======================
+Fitness before:  -283.21634097042653
+Fitness after:  -483.3311390577486
+==================== Mutation ======================
+Fitness before:  -431.8159860113723
+Fitness after:  -708.000522426056
+==================== Mutation ======================
+Fitness before:  -328.0883236117205
+Fitness after:  -115.0883317838445
+==================== Mutation ======================
+Fitness before:  46.84042268372845
+Fitness after:  -77.95386595409157
+Sync from RL --> Nevo
+#Games: 94 #Frames: 27367  Train_Max: 15.22  Test_Score: 62.40  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 10.18  PG Loss: -8.9445
+
+==================== Mutation ======================
+Fitness before:  47.91019446925706
+Fitness after:  0.6346088062456999
+==================== Mutation ======================
+Fitness before:  207.93989052659987
+Fitness after:  397.7237851146323
+==================== Mutation ======================
+Fitness before:  394.009400477091
+Fitness after:  413.94137304133557
+==================== Mutation ======================
+Fitness before:  49.65735416295377
+Fitness after:  -94.67560477128134
+Sync from RL --> Nevo
+#Games: 100 #Frames: 31476  Train_Max: 851.87  Test_Score: 488.46  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 250.37  PG Loss: -18.1149
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.1857165134188108e-07
+Parent 1 142.1232291612675
+Parent 2 153.2409789827384
+Crossover performance:  203.07379688452312
+==================== Mutation ======================
+Fitness before:  241.1817972148815
+Fitness after:  -590.6226908973471
+==================== Mutation ======================
+Fitness before:  264.43164325903973
+Fitness after:  293.29885521366424
+Sync from RL --> Nevo
+#Games: 106 #Frames: 36491  Train_Max: 710.26  Test_Score: 242.67  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 7.07  PG Loss: -24.7535
+
+==================== Distillation Crossover ======================
+MSE Loss: 2.3450109196687662e-07
+Parent 1 308.2122664120441
+Parent 2 458.4786124785255
+Crossover performance:  351.4096561499099
+==================== Mutation ======================
+Fitness before:  358.0238707573202
+Fitness after:  100.81807136314202
+==================== Mutation ======================
+Fitness before:  309.4629741287358
+Fitness after:  331.019926777861
+==================== Mutation ======================
+Fitness before:  152.88815686399957
+Fitness after:  376.67175703042005
+==================== Mutation ======================
+Fitness before:  -705.3185685326405
+Fitness after:  -192.31245933134667
+Sync from RL --> Nevo
+#Games: 112 #Frames: 39596  Train_Max: 485.01  Test_Score: 347.85  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 69.33  PG Loss: -28.4267
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.0020504613436060025
+Parent 1 260.4026122207189
+Parent 2 132.9872141385991
+Crossover performance:  172.44887733795207
+==================== Distillation Crossover ======================
+MSE Loss: 1.9538172608690728e-07
+Parent 1 365.5994729096609
+Parent 2 506.97706179214265
+Crossover performance:  405.53420538131957
+==================== Mutation ======================
+Fitness before:  126.43955466085917
+Fitness after:  -22.120227627708072
+==================== Mutation ======================
+Fitness before:  421.7755115186716
+Fitness after:  130.2393573663224
+==================== Mutation ======================
+Fitness before:  366.8184679298338
+Fitness after:  44.709198179365806
+==================== Mutation ======================
+Fitness before:  346.6693523999347
+Fitness after:  498.4613717911308
+Sync from RL --> Nevo
+#Games: 118 #Frames: 42773  Train_Max: 310.70  Test_Score: 387.43  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 150.40  PG Loss: -30.7278
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.7421093971847769e-07
+Parent 1 496.03719950505763
+Parent 2 539.7756938148086
+Crossover performance:  670.0601483088408
+==================== Distillation Crossover ======================
+MSE Loss: 1.6139785330437917e-07
+Parent 1 605.4926479842334
+Parent 2 605.0048162863691
+Crossover performance:  509.41562074445744
+==================== Distillation Crossover ======================
+MSE Loss: 1.6235125563923702e-07
+Parent 1 682.8951481739873
+Parent 2 612.9529945816244
+Crossover performance:  529.2627492835849
+==================== Mutation ======================
+Fitness before:  449.1291897288218
+Fitness after:  641.7632022307461
+==================== Mutation ======================
+Fitness before:  583.1718738499147
+Fitness after:  176.95038000745652
+==================== Mutation ======================
+Fitness before:  381.9563323391501
+Fitness after:  537.9328621414271
+Sync from RL --> Nevo
+#Games: 124 #Frames: 47819  Train_Max: 727.85  Test_Score: 615.40  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 184.30  PG Loss: -35.0201
+
+==================== Distillation Crossover ======================
+MSE Loss: 2.841050442015103e-07
+Parent 1 479.6511741912909
+Parent 2 520.8167539702331
+Crossover performance:  525.4232825038691
+==================== Mutation ======================
+Fitness before:  552.6242544193157
+Fitness after:  41.51350731435802
+==================== Mutation ======================
+Fitness before:  478.74318416531423
+Fitness after:  429.94621883999423
+==================== Mutation ======================
+Fitness before:  500.5828202030999
+Fitness after:  343.0910738510891
+Sync from RL --> Nevo
+#Games: 130 #Frames: 53819  Train_Max: 573.17  Test_Score: 482.18  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 202.73  PG Loss: -39.0710
+
+==================== Mutation ======================
+Fitness before:  128.76577604446018
+Fitness after:  21.5273822623671
+==================== Mutation ======================
+Fitness before:  299.0808456220876
+Fitness after:  474.93090238646334
+==================== Mutation ======================
+Fitness before:  216.4690854674232
+Fitness after:  -344.52066392909546
+==================== Mutation ======================
+Fitness before:  416.19816637547893
+Fitness after:  304.19481814303606
+Sync from RL --> Nevo
+#Games: 136 #Frames: 54782  Train_Max: 86.59  Test_Score: 332.85  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 164.72  PG Loss: -41.2164
+
+==================== Mutation ======================
+Fitness before:  -217.91131518924627
+Fitness after:  -130.71677089122562
+==================== Mutation ======================
+Fitness before:  399.91348981991223
+Fitness after:  -822.9603225919036
+==================== Mutation ======================
+Fitness before:  436.47294632172316
+Fitness after:  -69.22441268431693
+Sync from RL --> Nevo
+#Games: 142 #Frames: 55905  Train_Max: 97.03  Test_Score: 597.66  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 104.25  PG Loss: -42.4625
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.932473235655152e-07
+Parent 1 640.3681453691257
+Parent 2 584.6243620577477
+Crossover performance:  612.6050414457961
+==================== Distillation Crossover ======================
+MSE Loss: 1.9317045421018975e-07
+Parent 1 620.9260358973387
+Parent 2 587.5479218053575
+Crossover performance:  648.201662887511
+==================== Mutation ======================
+Fitness before:  614.9984795404413
+Fitness after:  127.94282733952082
+==================== Mutation ======================
+Fitness before:  630.9031903753174
+Fitness after:  591.1263870754043
+==================== Mutation ======================
+Fitness before:  687.8511922620936
+Fitness after:  44.46213886867828
+Sync from RL --> Nevo
+#Games: 148 #Frames: 57905  Train_Max: 73.45  Test_Score: 676.34  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 87.55  PG Loss: -42.7030
+
+==================== Mutation ======================
+Fitness before:  145.3432504591097
+Fitness after:  80.51934590252692
+==================== Mutation ======================
+Fitness before:  557.8569102450514
+Fitness after:  -181.87620364244907
+==================== Mutation ======================
+Fitness before:  581.2735946132432
+Fitness after:  351.1854698378019
+==================== Mutation ======================
+Fitness before:  496.6200878465059
+Fitness after:  462.6419779173948
+Sync from RL --> Nevo
+#Games: 154 #Frames: 61976  Train_Max: 582.23  Test_Score: 579.07  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 141.44  PG Loss: -44.7451
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.5699705109284422e-07
+Parent 1 552.0373011927568
+Parent 2 521.4012793314291
+Crossover performance:  503.6263742291245
+==================== Mutation ======================
+Fitness before:  428.9969749094242
+Fitness after:  591.1333329530265
+==================== Mutation ======================
+Fitness before:  618.7537727590097
+Fitness after:  136.2492044974399
+Sync from RL --> Nevo
+#Games: 160 #Frames: 66517  Train_Max: 734.60  Test_Score: 563.28  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 343.11  PG Loss: -48.0030
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.004863166029099375
+Parent 1 435.8764944891841
+Parent 2 411.7030333895929
+Crossover performance:  608.8539491752392
+==================== Distillation Crossover ======================
+MSE Loss: 1.0840667119538239e-07
+Parent 1 582.6219729267419
+Parent 2 287.3645283084801
+Crossover performance:  265.209712946171
+==================== Mutation ======================
+Fitness before:  571.3551399675528
+Fitness after:  428.7244908741794
+==================== Mutation ======================
+Fitness before:  673.2909663296305
+Fitness after:  486.87722607174703
+==================== Mutation ======================
+Fitness before:  426.94789484768216
+Fitness after:  -45.38022142015696
+==================== Mutation ======================
+Fitness before:  672.705584559652
+Fitness after:  563.7662459319394
+Sync from RL --> Nevo
+#Games: 166 #Frames: 70955  Train_Max: 564.50  Test_Score: 423.39  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 261.49  PG Loss: -49.0815
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.029571477021090687
+Parent 1 348.53009509144886
+Parent 2 139.49941983555829
+Crossover performance:  89.58924695827056
+==================== Distillation Crossover ======================
+MSE Loss: 1.7012990340958823e-07
+Parent 1 512.4531123910846
+Parent 2 392.26529553827294
+Crossover performance:  521.9485011100471
+==================== Mutation ======================
+Fitness before:  422.62258349259463
+Fitness after:  354.63868748848864
+==================== Mutation ======================
+Fitness before:  250.53910373606794
+Fitness after:  216.03283453757257
+==================== Mutation ======================
+Fitness before:  486.5689220326217
+Fitness after:  -460.8733424046485
+==================== Mutation ======================
+Fitness before:  379.90453373983166
+Fitness after:  228.4556239055859
+Sync from RL --> Nevo
+#Games: 172 #Frames: 72309  Train_Max: 96.36  Test_Score: 317.67  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 143.29  PG Loss: -48.9410
+
+==================== Mutation ======================
+Fitness before:  426.84457008037924
+Fitness after:  378.8830953429457
+==================== Mutation ======================
+Fitness before:  847.3449029302419
+Fitness after:  134.82658904101768
+Sync from RL --> Nevo
+#Games: 178 #Frames: 74309  Train_Max: 109.31  Test_Score: 562.41  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 171.67  PG Loss: -50.2926
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.0048534362344071266
+Parent 1 426.7518899414931
+Parent 2 328.28733727915403
+Crossover performance:  753.3029378200123
+==================== Mutation ======================
+Fitness before:  586.3179009224101
+Fitness after:  520.2378965469115
+==================== Mutation ======================
+Fitness before:  469.25082659705214
+Fitness after:  89.99371817089272
+==================== Mutation ======================
+Fitness before:  519.7383840614593
+Fitness after:  575.8801472919716
+==================== Mutation ======================
+Fitness before:  420.1234026948966
+Fitness after:  270.36792101090913
+Sync from RL --> Nevo
+#Games: 184 #Frames: 79397  Train_Max: 638.06  Test_Score: 539.84  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 580.70  PG Loss: -49.5342
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.10603734254837036
+Parent 1 236.56945820981042
+Parent 2 396.2009947340887
+Crossover performance:  462.31667929864324
+==================== Distillation Crossover ======================
+MSE Loss: 1.4491696020968448e-07
+Parent 1 293.50160039687523
+Parent 2 313.93572294483585
+Crossover performance:  410.75059097117503
+==================== Mutation ======================
+Fitness before:  276.3011864662261
+Fitness after:  105.47258348703198
+==================== Mutation ======================
+Fitness before:  218.2250555981765
+Fitness after:  -120.42563882751975
+==================== Mutation ======================
+Fitness before:  308.43729506363223
+Fitness after:  64.61069576015576
+==================== Mutation ======================
+Fitness before:  321.5235260496372
+Fitness after:  644.0792417662441
+Sync from RL --> Nevo
+#Games: 190 #Frames: 85273  Train_Max: 1057.63  Test_Score: 434.43  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 336.23  PG Loss: -50.2945
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.06548887798562646
+Parent 1 601.6395664700015
+Parent 2 135.90938670003862
+Crossover performance:  19.61460088672566
+==================== Distillation Crossover ======================
+MSE Loss: 2.0865370338185584e-07
+Parent 1 381.74120103577957
+Parent 2 530.8220656095716
+Crossover performance:  559.6947962289169
+==================== Mutation ======================
+Fitness before:  424.3375718567577
+Fitness after:  17.74289202949074
+==================== Mutation ======================
+Fitness before:  60.76134924393099
+Fitness after:  -146.21692669360957
+==================== Mutation ======================
+Fitness before:  114.53255922597585
+Fitness after:  59.72849204826521
+==================== Mutation ======================
+Fitness before:  406.01152983760886
+Fitness after:  409.3428488261741
+Sync from RL --> Nevo
+#Games: 196 #Frames: 86506  Train_Max: 121.43  Test_Score: 421.09  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 636.42  PG Loss: -53.6887
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.0007215562654891983
+Parent 1 575.081348368937
+Parent 2 949.4249381130142
+Crossover performance:  973.3303928074962
+==================== Mutation ======================
+Fitness before:  -674.9510047080232
+Fitness after:  259.620170211773
+==================== Mutation ======================
+Fitness before:  972.3020049794047
+Fitness after:  179.12831812521767
+==================== Mutation ======================
+Fitness before:  674.3680547559192
+Fitness after:  993.3912975149597
+Sync from RL --> Nevo
+#Games: 202 #Frames: 89531  Train_Max: 1423.77  Test_Score: 823.65  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 267.87  PG Loss: -56.0877
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.029739824868738652
+Parent 1 405.9021460963479
+Parent 2 211.94029268641503
+Crossover performance:  353.0381467495516
+==================== Mutation ======================
+Fitness before:  420.18915816832475
+Fitness after:  210.35052057139478
+==================== Mutation ======================
+Fitness before:  632.7035217144783
+Fitness after:  -438.3013516755165
+==================== Mutation ======================
+Fitness before:  553.5564881103073
+Fitness after:  188.67918981023175
+Sync from RL --> Nevo
+#Games: 208 #Frames: 90747  Train_Max: 136.61  Test_Score: 187.08  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 593.05  PG Loss: -58.0365
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.00031052725680638107
+Parent 1 731.7878036794734
+Parent 2 893.7607016022228
+Crossover performance:  932.1674814739699
+==================== Mutation ======================
+Fitness before:  1142.8459542338019
+Fitness after:  346.13458995223243
+==================== Mutation ======================
+Fitness before:  1121.0243659586947
+Fitness after:  581.5536189462882
+==================== Mutation ======================
+Fitness before:  1122.862191257971
+Fitness after:  682.6557534517883
+==================== Mutation ======================
+Fitness before:  202.17577147247945
+Fitness after:  104.42724291953944
+Sync from RL --> Nevo
+#Games: 214 #Frames: 92507  Train_Max: 144.64  Test_Score: 959.87  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1028.56  PG Loss: -58.7755
+
+==================== Distillation Crossover ======================
+MSE Loss: 2.1644295635780964e-07
+Parent 1 764.8545754857726
+Parent 2 855.3892872995987
+Crossover performance:  584.3248222567238
+==================== Mutation ======================
+Fitness before:  113.48693709687404
+Fitness after:  -52.356242557441036
+==================== Mutation ======================
+Fitness before:  649.1679327248205
+Fitness after:  572.9485114413632
+==================== Mutation ======================
+Fitness before:  389.0074994815356
+Fitness after:  780.6594993194931
+==================== Mutation ======================
+Fitness before:  721.2161583371568
+Fitness after:  246.93260176917698
+Sync from RL --> Nevo
+#Games: 220 #Frames: 95815  Train_Max: 1092.38  Test_Score: 742.61  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 610.92  PG Loss: -60.0714
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.03527898481115699
+Parent 1 550.0263310068786
+Parent 2 221.83265959649412
+Crossover performance:  312.32756101950827
+==================== Distillation Crossover ======================
+MSE Loss: 1.2817516914509497e-07
+Parent 1 281.3645123424541
+Parent 2 567.1259651573721
+Crossover performance:  560.4048796040763
+==================== Mutation ======================
+Fitness before:  450.18097350952775
+Fitness after:  269.50574381399764
+==================== Mutation ======================
+Fitness before:  428.35260261665314
+Fitness after:  84.6483644426539
+==================== Mutation ======================
+Fitness before:  863.7021098262625
+Fitness after:  465.09333514407643
+==================== Mutation ======================
+Fitness before:  347.4681909085135
+Fitness after:  326.06359638211364
+Sync from RL --> Nevo
+#Games: 226 #Frames: 99270  Train_Max: 594.59  Test_Score: 910.49  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 797.86  PG Loss: -61.4678
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.0023800519440555943
+Parent 1 670.198079408125
+Parent 2 864.9285079858855
+Crossover performance:  352.81172638579403
+==================== Mutation ======================
+Fitness before:  516.9722532266417
+Fitness after:  855.6552376576235
+==================== Mutation ======================
+Fitness before:  421.37578325471
+Fitness after:  147.58943532132275
+==================== Mutation ======================
+Fitness before:  372.2782927164251
+Fitness after:  780.6432798059149
+==================== Mutation ======================
+Fitness before:  542.4708039496787
+Fitness after:  139.69872586866887
+Sync from RL --> Nevo
+#Games: 232 #Frames: 102307  Train_Max: 1001.18  Test_Score: 426.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 697.13  PG Loss: -63.0727
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.7597761363674637e-07
+Parent 1 253.84601939611065
+Parent 2 526.517889390691
+Crossover performance:  304.9428284511579
+==================== Distillation Crossover ======================
+MSE Loss: 1.7538578092057833e-07
+Parent 1 314.9714945972667
+Parent 2 439.26168258911764
+Crossover performance:  545.3576240250815
+==================== Distillation Crossover ======================
+MSE Loss: 1.7285782689668848e-07
+Parent 1 329.74505758789337
+Parent 2 304.3784350701014
+Crossover performance:  103.47467437178075
+==================== Mutation ======================
+Fitness before:  549.1894697404655
+Fitness after:  628.3599787769423
+==================== Mutation ======================
+Fitness before:  561.3880032427129
+Fitness after:  -155.98033459470292
+==================== Mutation ======================
+Fitness before:  195.75342243037267
+Fitness after:  -75.73499250085612
+==================== Mutation ======================
+Fitness before:  422.72100290156794
+Fitness after:  -969.4504107056276
+Sync from RL --> Nevo
+#Games: 238 #Frames: 104059  Train_Max: 146.48  Test_Score: 140.07  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 885.12  PG Loss: -65.3904
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.03821752956137061
+Parent 1 603.589412512543
+Parent 2 309.37542926220215
+Crossover performance:  704.4021320092681
+==================== Mutation ======================
+Fitness before:  494.8603272612684
+Fitness after:  550.4070159470564
+==================== Mutation ======================
+Fitness before:  693.1135017813291
+Fitness after:  361.0441848541842
+==================== Mutation ======================
+Fitness before:  479.8995174934852
+Fitness after:  447.0556095235277
+==================== Mutation ======================
+Fitness before:  1102.3051733100813
+Fitness after:  594.5532984565991
+Sync from RL --> Nevo
+#Games: 244 #Frames: 106786  Train_Max: 1929.89  Test_Score: 1217.58  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 733.74  PG Loss: -67.0495
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.05646213945001364
+Parent 1 1082.2780224628953
+Parent 2 996.7202555306263
+Crossover performance:  702.3790238117198
+==================== Distillation Crossover ======================
+MSE Loss: 1.5397795216642862e-07
+Parent 1 1519.0538330416516
+Parent 2 1158.1642729101673
+Crossover performance:  1039.6135388449195
+==================== Mutation ======================
+Fitness before:  1346.21823123828
+Fitness after:  1067.3708547880292
+==================== Mutation ======================
+Fitness before:  1263.9861550087473
+Fitness after:  957.1359809435207
+==================== Mutation ======================
+Fitness before:  1023.7197323190318
+Fitness after:  1085.8893091856448
+Sync from RL --> Nevo
+#Games: 250 #Frames: 111805  Train_Max: 1466.32  Test_Score: 1210.62  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 481.79  PG Loss: -69.9217
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.011407240969128906
+Parent 1 297.3331981821171
+Parent 2 678.3804855626579
+Crossover performance:  46.63705623420354
+==================== Mutation ======================
+Fitness before:  300.52564464713583
+Fitness after:  318.30398772101046
+==================== Mutation ======================
+Fitness before:  404.84686643926386
+Fitness after:  26.297595970167315
+==================== Mutation ======================
+Fitness before:  452.1219609719322
+Fitness after:  560.2337011792063
+Sync from RL --> Nevo
+#Games: 256 #Frames: 113438  Train_Max: 570.75  Test_Score: 294.18  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 748.32  PG Loss: -71.4920
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.007366902066860348
+Parent 1 667.4233624834409
+Parent 2 352.9269025238746
+Crossover performance:  364.96095821896523
+==================== Distillation Crossover ======================
+MSE Loss: 1.3559281555330927e-07
+Parent 1 339.97684020985224
+Parent 2 496.2663026571551
+Crossover performance:  538.5506621678499
+==================== Mutation ======================
+Fitness before:  398.8297568293752
+Fitness after:  636.2096517396727
+==================== Mutation ======================
+Fitness before:  451.9140426747093
+Fitness after:  112.95774072389845
+==================== Mutation ======================
+Fitness before:  327.218781356049
+Fitness after:  126.10421726320047
+==================== Mutation ======================
+Fitness before:  361.2951384720976
+Fitness after:  311.33021871625766
+Sync from RL --> Nevo
+#Games: 262 #Frames: 114893  Train_Max: 179.50  Test_Score: 501.94  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 368.73  PG Loss: -72.8379
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.009807555028237403
+Parent 1 606.375256204087
+Parent 2 552.1069423787847
+Crossover performance:  308.985503008096
+==================== Distillation Crossover ======================
+MSE Loss: 1.6214631344269036e-07
+Parent 1 375.8062682161039
+Parent 2 486.19445701700187
+Crossover performance:  471.09810291049945
+==================== Mutation ======================
+Fitness before:  458.513448549823
+Fitness after:  545.1466535120901
+==================== Mutation ======================
+Fitness before:  414.20609329079826
+Fitness after:  123.84521481612023
+==================== Mutation ======================
+Fitness before:  509.58790224288924
+Fitness after:  -243.25337450433008
+Sync from RL --> Nevo
+#Games: 268 #Frames: 115690  Train_Max: 115.04  Test_Score: 599.98  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 650.58  PG Loss: -73.5360
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.5248764810849026e-07
+Parent 1 768.560350901179
+Parent 2 279.62140045590894
+Crossover performance:  901.4824804482048
+==================== Mutation ======================
+Fitness before:  941.0249550737478
+Fitness after:  716.9753964248932
+==================== Mutation ======================
+Fitness before:  829.8184966952873
+Fitness after:  1159.7436839417608
+==================== Mutation ======================
+Fitness before:  435.3350853557822
+Fitness after:  668.133020051216
+==================== Mutation ======================
+Fitness before:  387.045855491556
+Fitness after:  544.5460916425619
+Sync from RL --> Nevo
+#Games: 274 #Frames: 117521  Train_Max: 163.54  Test_Score: 488.26  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1120.97  PG Loss: -74.1848
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.0015086378465639428
+Parent 1 865.1049503777037
+Parent 2 617.352857469826
+Crossover performance:  327.8833320588732
+==================== Mutation ======================
+Fitness before:  656.970741397977
+Fitness after:  912.787784576353
+==================== Mutation ======================
+Fitness before:  226.90575936745122
+Fitness after:  433.38427526319276
+==================== Mutation ======================
+Fitness before:  538.6352124362088
+Fitness after:  361.55873479865005
+Sync from RL --> Nevo
+#Games: 280 #Frames: 119038  Train_Max: 179.75  Test_Score: 513.58  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 693.31  PG Loss: -75.1434
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.007828664430417121
+Parent 1 531.8219979368762
+Parent 2 670.8791166182739
+Crossover performance:  904.409899778432
+==================== Distillation Crossover ======================
+MSE Loss: 1.7047590041840977e-07
+Parent 1 856.2510259952212
+Parent 2 1148.3023267852209
+Crossover performance:  1107.102182630422
+==================== Mutation ======================
+Fitness before:  1468.5319507487875
+Fitness after:  69.86283424198086
+Sync from RL --> Nevo
+#Games: 286 #Frames: 120679  Train_Max: 184.57  Test_Score: 646.13  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 960.42  PG Loss: -76.3905
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.010841541271656752
+Parent 1 784.3057511117884
+Parent 2 843.0262391239643
+Crossover performance:  936.3889835805023
+==================== Distillation Crossover ======================
+MSE Loss: 1.6049643392079815e-07
+Parent 1 487.97173900530527
+Parent 2 1001.4553605071194
+Crossover performance:  585.9993145728068
+==================== Mutation ======================
+Fitness before:  442.55604967802884
+Fitness after:  950.5650082007247
+==================== Mutation ======================
+Fitness before:  1071.9165764933846
+Fitness after:  414.0988083394883
+==================== Mutation ======================
+Fitness before:  623.4123701277983
+Fitness after:  434.9501664047543
+Sync from RL --> Nevo
+#Games: 292 #Frames: 122548  Train_Max: 161.80  Test_Score: 573.20  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 429.30  PG Loss: -77.3068
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.004146693798247725
+Parent 1 261.6184379532855
+Parent 2 250.71335158366236
+Crossover performance:  306.9810834444337
+==================== Mutation ======================
+Fitness before:  268.95373851267146
+Fitness after:  544.9161415920587
+==================== Mutation ======================
+Fitness before:  166.29948265500556
+Fitness after:  343.23424734053424
+==================== Mutation ======================
+Fitness before:  -74.94132735872793
+Fitness after:  260.1547264983608
+==================== Mutation ======================
+Fitness before:  481.7124516820256
+Fitness after:  327.32922327551523
+Sync from RL --> Nevo
+#Games: 298 #Frames: 123438  Train_Max: 161.63  Test_Score: 445.66  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 430.50  PG Loss: -78.0369
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.007172732125036418
+Parent 1 424.27943062610404
+Parent 2 195.15235709532666
+Crossover performance:  858.9393340284527
+==================== Distillation Crossover ======================
+MSE Loss: 1.665957398699902e-07
+Parent 1 194.47306656378615
+Parent 2 252.2654098696224
+Crossover performance:  285.53771495125056
+==================== Mutation ======================
+Fitness before:  295.2207349021892
+Fitness after:  1347.143156693905
+==================== Mutation ======================
+Fitness before:  449.8100989952974
+Fitness after:  359.1509209355364
+==================== Mutation ======================
+Fitness before:  426.7964322127009
+Fitness after:  -864.8440223915547
+==================== Mutation ======================
+Fitness before:  186.60698557956508
+Fitness after:  757.170441495669
+Sync from RL --> Nevo
+#Games: 304 #Frames: 124350  Train_Max: 186.59  Test_Score: 303.91  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2017.54  PG Loss: -78.6995
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.07815267853438854
+Parent 1 934.2456281318076
+Parent 2 286.51049707541256
+Crossover performance:  -260.41305944628914
+==================== Distillation Crossover ======================
+MSE Loss: 1.7317553009377206e-07
+Parent 1 737.247513517921
+Parent 2 708.2956887300863
+Crossover performance:  1130.4237961531521
+==================== Mutation ======================
+Fitness before:  1447.3104660888825
+Fitness after:  1111.1247218556969
+==================== Mutation ======================
+Fitness before:  203.0560104205694
+Fitness after:  -810.5638419491626
+==================== Mutation ======================
+Fitness before:  499.4417202317005
+Fitness after:  -39.86661050401447
+==================== Mutation ======================
+Fitness before:  1210.0842590834122
+Fitness after:  -686.1106773252034
+Sync from RL --> Nevo
+#Games: 310 #Frames: 128660  Train_Max: 1450.28  Test_Score: 910.12  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1031.83  PG Loss: -80.5295
+
+==================== Mutation ======================
+Fitness before:  369.31946638069775
+Fitness after:  964.5653856412104
+==================== Mutation ======================
+Fitness before:  747.1091433261251
+Fitness after:  1101.693432423931
+Sync from RL --> Nevo
+#Games: 316 #Frames: 129597  Train_Max: 173.49  Test_Score: 1083.24  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 891.30  PG Loss: -81.9751
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.005455268383957446
+Parent 1 717.5999997478414
+Parent 2 2049.701605674289
+Crossover performance:  1808.6197398630443
+==================== Distillation Crossover ======================
+MSE Loss: 1.4030984480939422e-07
+Parent 1 1082.2908277025306
+Parent 2 666.6902888092487
+Crossover performance:  703.4472882427712
+==================== Mutation ======================
+Fitness before:  2111.1856612493
+Fitness after:  1075.3843341300624
+==================== Mutation ======================
+Fitness before:  797.233056026736
+Fitness after:  1397.8927853361697
+==================== Mutation ======================
+Fitness before:  1396.5587548789067
+Fitness after:  419.675213886484
+==================== Mutation ======================
+Fitness before:  1548.3347376306504
+Fitness after:  891.0331784440341
+Sync from RL --> Nevo
+#Games: 322 #Frames: 131597  Train_Max: 199.57  Test_Score: 794.53  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1396.75  PG Loss: -82.5606
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.6053043268016153e-07
+Parent 1 1570.1010315674862
+Parent 2 1527.859937476077
+Crossover performance:  1050.4469842721148
+==================== Mutation ======================
+Fitness before:  1131.4702999105962
+Fitness after:  113.2238914695104
+==================== Mutation ======================
+Fitness before:  804.3302454842941
+Fitness after:  1025.2264464318105
+==================== Mutation ======================
+Fitness before:  1193.4038764474442
+Fitness after:  1585.6993947063072
+==================== Mutation ======================
+Fitness before:  1278.8825079968785
+Fitness after:  1078.5791675731693
+Sync from RL --> Nevo
+#Games: 328 #Frames: 135838  Train_Max: 2344.25  Test_Score: 1411.51  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1496.27  PG Loss: -85.2432
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.00037820602738065646
+Parent 1 649.9257547505982
+Parent 2 752.7430402358843
+Crossover performance:  539.281821235385
+==================== Distillation Crossover ======================
+MSE Loss: 1.614575356967407e-07
+Parent 1 592.4243052862399
+Parent 2 607.1060357631076
+Crossover performance:  966.3045619833263
+==================== Mutation ======================
+Fitness before:  608.9522207247747
+Fitness after:  1396.542862544423
+==================== Mutation ======================
+Fitness before:  1024.1133069879052
+Fitness after:  751.7893644098933
+==================== Mutation ======================
+Fitness before:  523.5625460064078
+Fitness after:  627.6926410215377
+==================== Mutation ======================
+Fitness before:  1396.8555748675085
+Fitness after:  1436.813786790804
+Sync from RL --> Nevo
+#Games: 334 #Frames: 140426  Train_Max: 1189.71  Test_Score: 841.80  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 583.89  PG Loss: -87.3643
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.010804304364137351
+Parent 1 787.4201954929697
+Parent 2 1059.6933846771306
+Crossover performance:  925.6850473828315
+==================== Mutation ======================
+Fitness before:  200.19816763190215
+Fitness after:  382.796005957417
+==================== Mutation ======================
+Fitness before:  713.8844107982768
+Fitness after:  269.567434924182
+==================== Mutation ======================
+Fitness before:  770.7756509889489
+Fitness after:  -151.4766669841472
+Sync from RL --> Nevo
+#Games: 340 #Frames: 143687  Train_Max: 1642.88  Test_Score: 277.90  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1664.38  PG Loss: -89.3712
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.6827809901087676e-07
+Parent 1 2392.2666584703647
+Parent 2 1950.0893337272305
+Crossover performance:  1231.23796187915
+==================== Mutation ======================
+Fitness before:  2176.20017036473
+Fitness after:  1972.894698900714
+==================== Mutation ======================
+Fitness before:  2159.709071832809
+Fitness after:  2135.1749705017723
+==================== Mutation ======================
+Fitness before:  1694.2666096693051
+Fitness after:  1862.6139587615537
+==================== Mutation ======================
+Fitness before:  1955.4173907034215
+Fitness after:  1254.0337446369808
+Sync from RL --> Nevo
+#Games: 346 #Frames: 149687  Train_Max: 2406.85  Test_Score: 1796.80  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1078.31  PG Loss: -93.2102
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.5187978803510304e-07
+Parent 1 794.324266760302
+Parent 2 663.2343102335784
+Crossover performance:  1118.2043289569833
+==================== Mutation ======================
+Fitness before:  828.6334849900983
+Fitness after:  116.734352051009
+==================== Mutation ======================
+Fitness before:  447.74803552624655
+Fitness after:  491.204256755409
+==================== Mutation ======================
+Fitness before:  537.3256433156893
+Fitness after:  1511.1237298557894
+==================== Mutation ======================
+Fitness before:  1052.6912425147725
+Fitness after:  1395.5765738772147
+Sync from RL --> Nevo
+#Games: 352 #Frames: 150593  Train_Max: 234.10  Test_Score: 830.64  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1154.14  PG Loss: -95.1819
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.4413048567973875e-07
+Parent 1 1228.5953387074674
+Parent 2 1941.0186026509127
+Crossover performance:  1271.055651510138
+==================== Distillation Crossover ======================
+MSE Loss: 0.11940052919089794
+Parent 1 1823.7347636363545
+Parent 2 835.4361724676279
+Crossover performance:  1229.8745114549317
+==================== Mutation ======================
+Fitness before:  1273.0554260527545
+Fitness after:  983.5317422013346
+==================== Mutation ======================
+Fitness before:  1082.4987580372053
+Fitness after:  1511.8260425036274
+==================== Mutation ======================
+Fitness before:  1588.3180830540773
+Fitness after:  1234.1163557904788
+Sync from RL --> Nevo
+#Games: 358 #Frames: 155112  Train_Max: 2495.53  Test_Score: 1373.08  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1921.05  PG Loss: -97.6181
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.791892945135487e-07
+Parent 1 1396.3023016973798
+Parent 2 1377.405083037183
+Crossover performance:  572.2822735911828
+==================== Distillation Crossover ======================
+MSE Loss: 1.7749937555322504e-07
+Parent 1 1146.8791644898067
+Parent 2 1659.9228246301432
+Crossover performance:  552.375241537701
+==================== Distillation Crossover ======================
+MSE Loss: 1.7732553345695123e-07
+Parent 1 826.3623563758907
+Parent 2 932.3032023478174
+Crossover performance:  990.3289421994629
+==================== Mutation ======================
+Fitness before:  849.2784540280616
+Fitness after:  738.1163285685083
+==================== Mutation ======================
+Fitness before:  1629.7659748593828
+Fitness after:  1353.4640801971095
+==================== Mutation ======================
+Fitness before:  909.5118622502757
+Fitness after:  707.1467410867709
+==================== Mutation ======================
+Fitness before:  723.5614895966414
+Fitness after:  -625.7986355594909
+Sync from RL --> Nevo
+#Games: 364 #Frames: 160303  Train_Max: 2069.98  Test_Score: 885.40  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2370.26  PG Loss: -101.9234
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.302161926730605e-07
+Parent 1 2374.553278650316
+Parent 2 2284.0525337891045
+Crossover performance:  2319.206255501894
+==================== Mutation ======================
+Fitness before:  1154.1060771479474
+Fitness after:  -304.36803290400655
+==================== Mutation ======================
+Fitness before:  1859.0457028804897
+Fitness after:  2323.6348593849175
+==================== Mutation ======================
+Fitness before:  1582.3333553126945
+Fitness after:  755.065404161727
+Sync from RL --> Nevo
+#Games: 370 #Frames: 162147  Train_Max: 214.81  Test_Score: 2061.64  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 398.85  PG Loss: -104.3056
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.015917184576392174
+Parent 1 847.7195965258167
+Parent 2 1279.7012160749423
+Crossover performance:  1329.939662619642
+==================== Mutation ======================
+Fitness before:  150.4254210974048
+Fitness after:  480.348261204562
+==================== Mutation ======================
+Fitness before:  1913.263868658826
+Fitness after:  595.4797752376569
+==================== Mutation ======================
+Fitness before:  36.20154644244722
+Fitness after:  -405.53902034660297
+==================== Mutation ======================
+Fitness before:  487.7155644958001
+Fitness after:  -314.10258469557414
+Sync from RL --> Nevo
+#Games: 376 #Frames: 164038  Train_Max: 167.24  Test_Score: 365.72  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1802.79  PG Loss: -104.9957
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.5917022864186947e-07
+Parent 1 1484.8511792871807
+Parent 2 955.8015400938782
+Crossover performance:  822.1505665924424
+==================== Mutation ======================
+Fitness before:  785.240776334858
+Fitness after:  -1364.1653481779754
+==================== Mutation ======================
+Fitness before:  474.43512253907573
+Fitness after:  1364.8814109004518
+==================== Mutation ======================
+Fitness before:  1437.7045169188295
+Fitness after:  1124.7645898821422
+==================== Mutation ======================
+Fitness before:  1150.0846774492888
+Fitness after:  -831.0217528011183
+Sync from RL --> Nevo
+#Games: 382 #Frames: 165861  Train_Max: 230.10  Test_Score: 1640.99  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1867.92  PG Loss: -106.8511
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.6488031775452328e-07
+Parent 1 1268.67111571284
+Parent 2 2103.369500870985
+Crossover performance:  1507.7214141322352
+==================== Mutation ======================
+Fitness before:  1710.7997998764065
+Fitness after:  602.42863025363
+==================== Mutation ======================
+Fitness before:  1607.364923493164
+Fitness after:  1490.3240769068939
+==================== Mutation ======================
+Fitness before:  1161.7640833456574
+Fitness after:  1559.6238592079585
+==================== Mutation ======================
+Fitness before:  1954.865120779349
+Fitness after:  -577.5211400517044
+Sync from RL --> Nevo
+#Games: 388 #Frames: 171861  Train_Max: 2359.36  Test_Score: 1453.85  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1037.54  PG Loss: -108.3438
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.02934941197745502
+Parent 1 1901.541850806247
+Parent 2 1090.6632905798274
+Crossover performance:  1093.6604030113947
+==================== Mutation ======================
+Fitness before:  1799.8871483096004
+Fitness after:  -367.4748327102848
+==================== Mutation ======================
+Fitness before:  990.8301941937356
+Fitness after:  651.6083857552248
+==================== Mutation ======================
+Fitness before:  332.8830582503755
+Fitness after:  19.967494380546327
+Sync from RL --> Nevo
+#Games: 394 #Frames: 176887  Train_Max: 2532.55  Test_Score: 1209.17  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1522.36  PG Loss: -111.4688
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.021864297846332193
+Parent 1 808.1313002779333
+Parent 2 1113.0037313609894
+Crossover performance:  1123.4279208255514
+==================== Mutation ======================
+Fitness before:  452.2516945911831
+Fitness after:  863.2305314084813
+==================== Mutation ======================
+Fitness before:  1407.077233880634
+Fitness after:  516.5719732275454
+==================== Mutation ======================
+Fitness before:  747.4199219939821
+Fitness after:  1406.5442289156795
+==================== Mutation ======================
+Fitness before:  928.0144557559048
+Fitness after:  335.40182135711103
+Sync from RL --> Nevo
+#Games: 400 #Frames: 178785  Train_Max: 233.01  Test_Score: 1777.33  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 833.74  PG Loss: -113.2442
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.14034593831747771
+Parent 1 2542.602859780954
+Parent 2 629.5662873672474
+Crossover performance:  718.0132109830527
+==================== Mutation ======================
+Fitness before:  2130.5822226683767
+Fitness after:  710.6081423312153
+==================== Mutation ======================
+Fitness before:  608.4431727333146
+Fitness after:  521.5465209922868
+==================== Mutation ======================
+Fitness before:  1042.4678371572825
+Fitness after:  -432.11532923697666
+==================== Mutation ======================
+Fitness before:  704.3204872746728
+Fitness after:  -265.2806731252882
+Sync from RL --> Nevo
+#Games: 406 #Frames: 182446  Train_Max: 1997.31  Test_Score: 824.20  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2122.12  PG Loss: -114.9768
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.02797204665839672
+Parent 1 2720.4661259323047
+Parent 2 1213.8841761066546
+Crossover performance:  1389.0718978979244
+==================== Mutation ======================
+Fitness before:  2515.882128787881
+Fitness after:  2343.127358800403
+==================== Mutation ======================
+Fitness before:  1929.2186210746809
+Fitness after:  2119.0039866865163
+==================== Mutation ======================
+Fitness before:  1608.6899895763659
+Fitness after:  662.929745044274
+Sync from RL --> Nevo
+#Games: 412 #Frames: 188446  Train_Max: 3041.85  Test_Score: 2750.02  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2647.00  PG Loss: -119.3449
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.005871065822429955
+Parent 1 2162.998391321922
+Parent 2 2601.4651485730124
+Crossover performance:  2951.3759472570987
+==================== Distillation Crossover ======================
+MSE Loss: 1.6766478694307807e-07
+Parent 1 1692.9304050241112
+Parent 2 2163.8010998988693
+Crossover performance:  2286.607980436332
+==================== Mutation ======================
+Fitness before:  2506.189099497504
+Fitness after:  2344.8489218021855
+==================== Mutation ======================
+Fitness before:  2239.1264400536406
+Fitness after:  -536.5701260640997
+==================== Mutation ======================
+Fitness before:  2519.2154902558896
+Fitness after:  1881.1003155968833
+Sync from RL --> Nevo
+#Games: 418 #Frames: 190446  Train_Max: 244.48  Test_Score: 2701.78  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1199.93  PG Loss: -122.2702
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.00752233323873952
+Parent 1 3011.078320198939
+Parent 2 935.2858341967656
+Crossover performance:  1615.9956086143065
+==================== Distillation Crossover ======================
+MSE Loss: 1.6305427443796817e-07
+Parent 1 1543.7368256257382
+Parent 2 823.1596567552285
+Crossover performance:  2265.427196448617
+==================== Mutation ======================
+Fitness before:  2539.1007639811473
+Fitness after:  2233.3833654080754
+==================== Mutation ======================
+Fitness before:  1518.8560093178032
+Fitness after:  1840.9325059984117
+==================== Mutation ======================
+Fitness before:  2101.8247380801404
+Fitness after:  2116.382216443816
+==================== Mutation ======================
+Fitness before:  814.2147107475474
+Fitness after:  885.4341213601007
+Sync from RL --> Nevo
+#Games: 424 #Frames: 191554  Train_Max: 278.04  Test_Score: 1899.34  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1646.61  PG Loss: -123.7136
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.004110723419580608
+Parent 1 1903.7182225889744
+Parent 2 1744.5834126719624
+Crossover performance:  1758.5123445767917
+==================== Mutation ======================
+Fitness before:  1569.0906787854778
+Fitness after:  -345.0444966536454
+==================== Mutation ======================
+Fitness before:  2176.2839602103195
+Fitness after:  566.2782519317296
+==================== Mutation ======================
+Fitness before:  2065.9058640108337
+Fitness after:  1972.3928918527904
+Sync from RL --> Nevo
+#Games: 430 #Frames: 195354  Train_Max: 2652.46  Test_Score: 1959.99  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1397.48  PG Loss: -124.1200
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.0037728055962361396
+Parent 1 1634.7542539796318
+Parent 2 2498.2723342300624
+Crossover performance:  2049.2614118385886
+==================== Distillation Crossover ======================
+MSE Loss: 1.6967690967817363e-07
+Parent 1 1390.8940587365769
+Parent 2 1223.0715096349538
+Crossover performance:  1876.2400711868709
+==================== Mutation ======================
+Fitness before:  2324.9005218656666
+Fitness after:  833.665077431725
+==================== Mutation ======================
+Fitness before:  1533.9300084871206
+Fitness after:  -461.8989682923474
+==================== Mutation ======================
+Fitness before:  2915.873587255629
+Fitness after:  678.5551099130735
+==================== Mutation ======================
+Fitness before:  1375.2256868462032
+Fitness after:  -926.5906030179001
+Sync from RL --> Nevo
+#Games: 436 #Frames: 199142  Train_Max: 2880.63  Test_Score: 1870.94  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 579.30  PG Loss: -127.1145
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.011413648840971291
+Parent 1 1207.44012797656
+Parent 2 1361.0009466615402
+Crossover performance:  1499.5480436080331
+==================== Distillation Crossover ======================
+MSE Loss: 1.8714298164468345e-07
+Parent 1 2203.505557526755
+Parent 2 2033.1858249403988
+Crossover performance:  1515.8895196190806
+==================== Mutation ======================
+Fitness before:  1879.439463409884
+Fitness after:  979.1591254621446
+==================== Mutation ======================
+Fitness before:  1526.9921050867483
+Fitness after:  1336.3578805852958
+==================== Mutation ======================
+Fitness before:  1206.297179167733
+Fitness after:  168.62997751348806
+==================== Mutation ======================
+Fitness before:  1855.9748687944539
+Fitness after:  571.92808906757
+Sync from RL --> Nevo
+#Games: 442 #Frames: 201693  Train_Max: 2426.74  Test_Score: 1054.07  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1825.66  PG Loss: -128.6687
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.744844677631363e-07
+Parent 1 2787.757269424917
+Parent 2 2765.626267898419
+Crossover performance:  1443.741407621559
+==================== Mutation ======================
+Fitness before:  1620.52346985468
+Fitness after:  1580.9935544757047
+==================== Mutation ======================
+Fitness before:  1611.3797457500684
+Fitness after:  1749.210723633872
+==================== Mutation ======================
+Fitness before:  2442.272957818962
+Fitness after:  15.306217644967557
+Sync from RL --> Nevo
+#Games: 448 #Frames: 206128  Train_Max: 2747.74  Test_Score: 2039.33  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2636.14  PG Loss: -129.9864
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.008627243712544442
+Parent 1 2619.3544447013032
+Parent 2 2982.914497030358
+Crossover performance:  2970.5905286266448
+==================== Distillation Crossover ======================
+MSE Loss: 1.9785125715543472e-07
+Parent 1 1777.8924323002625
+Parent 2 2690.4963418952
+Crossover performance:  1440.0144778782687
+==================== Mutation ======================
+Fitness before:  3007.686409239752
+Fitness after:  3038.322254797832
+==================== Mutation ======================
+Fitness before:  1834.0293780845345
+Fitness after:  1277.845928055775
+Sync from RL --> Nevo
+#Games: 454 #Frames: 208128  Train_Max: 245.49  Test_Score: 2606.38  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2025.10  PG Loss: -131.9823
+
+==================== Distillation Crossover ======================
+MSE Loss: 2.0151120594391614e-07
+Parent 1 2465.0006612154034
+Parent 2 2366.1686093697194
+Crossover performance:  1918.1140801297013
+==================== Distillation Crossover ======================
+MSE Loss: 0.039620987791568044
+Parent 1 2290.251502323014
+Parent 2 1482.1668889280018
+Crossover performance:  2102.683070856109
+==================== Mutation ======================
+Fitness before:  2956.811656799686
+Fitness after:  304.48488105859326
+==================== Mutation ======================
+Fitness before:  1990.8151731234398
+Fitness after:  1339.453918632338
+Sync from RL --> Nevo
+#Games: 460 #Frames: 213199  Train_Max: 2896.04  Test_Score: 2020.59  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1411.75  PG Loss: -134.4228
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.02072422713972628
+Parent 1 2651.8742756808083
+Parent 2 1595.0130402199416
+Crossover performance:  2326.229229730248
+==================== Distillation Crossover ======================
+MSE Loss: 2.1237888887526423e-07
+Parent 1 2533.658502547485
+Parent 2 2694.922067618235
+Crossover performance:  3105.804961236349
+==================== Mutation ======================
+Fitness before:  1819.5991824403568
+Fitness after:  1543.8698088085337
+==================== Mutation ======================
+Fitness before:  2505.8610462553315
+Fitness after:  1020.722976361137
+==================== Mutation ======================
+Fitness before:  2339.1715469555475
+Fitness after:  1403.275654947806
+==================== Mutation ======================
+Fitness before:  1936.5152508504495
+Fitness after:  561.3145444837689
+Sync from RL --> Nevo
+#Games: 466 #Frames: 215199  Train_Max: 237.65  Test_Score: 2864.73  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 723.99  PG Loss: -135.3553
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.05220277206972242
+Parent 1 2477.3411980046285
+Parent 2 1155.99930509066
+Crossover performance:  1535.3541051424459
+==================== Distillation Crossover ======================
+MSE Loss: 2.265655087541063e-07
+Parent 1 3136.091665628869
+Parent 2 2427.296880730126
+Crossover performance:  2354.2804754296358
+==================== Mutation ======================
+Fitness before:  1411.0820298745293
+Fitness after:  1233.0232971212295
+==================== Mutation ======================
+Fitness before:  1701.8390745072581
+Fitness after:  1062.4567949770765
+==================== Mutation ======================
+Fitness before:  3135.6043184559358
+Fitness after:  2214.49997615842
+Sync from RL --> Nevo
+#Games: 472 #Frames: 216822  Train_Max: 256.53  Test_Score: 2818.73  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1929.12  PG Loss: -136.2050
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.9563908857378464e-07
+Parent 1 -155.07628795230806
+Parent 2 319.55285196468037
+Crossover performance:  718.4436935079544
+==================== Distillation Crossover ======================
+MSE Loss: 0.07222072687000036
+Parent 1 1078.0672456937305
+Parent 2 1032.0745906692598
+Crossover performance:  -215.0996036334853
+==================== Mutation ======================
+Fitness before:  247.46021541402024
+Fitness after:  369.1082915363742
+==================== Mutation ======================
+Fitness before:  -132.47491304096144
+Fitness after:  336.4310832617284
+==================== Mutation ======================
+Fitness before:  428.49924783608674
+Fitness after:  -1568.441182778361
+Sync from RL --> Nevo
+#Games: 478 #Frames: 218822  Train_Max: 271.92  Test_Score: 435.91  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1854.84  PG Loss: -136.7812
+
+==================== Distillation Crossover ======================
+MSE Loss: 2.1727150993910983e-07
+Parent 1 2013.8579901240905
+Parent 2 2301.841500710046
+Crossover performance:  2053.8566284204962
+==================== Mutation ======================
+Fitness before:  182.31455157352374
+Fitness after:  -915.1297497478781
+==================== Mutation ======================
+Fitness before:  2537.912174409189
+Fitness after:  543.7833545808033
+==================== Mutation ======================
+Fitness before:  707.8075521265393
+Fitness after:  451.5452576446094
+==================== Mutation ======================
+Fitness before:  1991.688544472427
+Fitness after:  -1042.5848710657806
+Sync from RL --> Nevo
+#Games: 484 #Frames: 220000  Train_Max: 272.13  Test_Score: 1602.78  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1650.37  PG Loss: -137.6560
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.013108860608190298
+Parent 1 226.1600816150516
+Parent 2 1465.9546606400113
+Crossover performance:  2146.026216807159
+==================== Distillation Crossover ======================
+MSE Loss: 2.163940251875829e-07
+Parent 1 450.67629618548256
+Parent 2 1545.4788286640592
+Crossover performance:  1327.0388241351573
+==================== Mutation ======================
+Fitness before:  2889.837961150299
+Fitness after:  -346.759738136087
+==================== Mutation ======================
+Fitness before:  1806.0292794503334
+Fitness after:  134.21659539194943
+Sync from RL --> Nevo
+#Games: 490 #Frames: 221821  Train_Max: 171.31  Test_Score: 1166.12  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 3193.35  PG Loss: -137.3351
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.10261994265019894
+Parent 1 1525.9574599935872
+Parent 2 1477.667963494549
+Crossover performance:  2434.0534929496307
+==================== Mutation ======================
+Fitness before:  2221.7906920225023
+Fitness after:  1749.5070175756605
+==================== Mutation ======================
+Fitness before:  1514.6157321056037
+Fitness after:  2747.288108223848
+==================== Mutation ======================
+Fitness before:  2032.5677046466521
+Fitness after:  2664.281929955666
+Sync from RL --> Nevo
+#Games: 496 #Frames: 227821  Train_Max: 3031.41  Test_Score: 2381.70  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 3457.80  PG Loss: -139.4918
+
+==================== Distillation Crossover ======================
+MSE Loss: 2.3125625254749592e-07
+Parent 1 3224.6609225091693
+Parent 2 3224.8203598539794
+Crossover performance:  2480.545772768258
+==================== Distillation Crossover ======================
+MSE Loss: 2.2693413690433317e-07
+Parent 1 3346.9087555924752
+Parent 2 3402.158632245339
+Crossover performance:  2968.590599998372
+==================== Distillation Crossover ======================
+MSE Loss: 2.279823270612269e-07
+Parent 1 2790.302181016462
+Parent 2 2646.7424063324092
+Crossover performance:  2666.6920331318734
+==================== Mutation ======================
+Fitness before:  2947.554394728574
+Fitness after:  2336.902398931874
+==================== Mutation ======================
+Fitness before:  3378.4799749096046
+Fitness after:  3387.201916584815
+==================== Mutation ======================
+Fitness before:  2882.294366961839
+Fitness after:  3153.84281815656
+==================== Mutation ======================
+Fitness before:  2381.080735158993
+Fitness after:  2599.562166649493
+Sync from RL --> Nevo
+#Games: 502 #Frames: 229821  Train_Max: 256.49  Test_Score: 3147.74  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 3546.23  PG Loss: -141.7964
+
+==================== Distillation Crossover ======================
+MSE Loss: 2.0318512028438818e-07
+Parent 1 3592.764807991897
+Parent 2 3540.455922523608
+Crossover performance:  3600.6141023948644
+==================== Mutation ======================
+Fitness before:  3560.5437457487124
+Fitness after:  1158.2430294388612
+==================== Mutation ======================
+Fitness before:  3555.4768505102816
+Fitness after:  3571.7575062210226
+==================== Mutation ======================
+Fitness before:  3075.2400068318734
+Fitness after:  2390.5477815715894
+==================== Mutation ======================
+Fitness before:  3405.546898741133
+Fitness after:  3410.305645653027
+Sync from RL --> Nevo
+#Games: 508 #Frames: 231821  Train_Max: 293.40  Test_Score: 3478.87  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1035.81  PG Loss: -141.6495
+
+==================== Mutation ======================
+Fitness before:  2165.0180293945605
+Fitness after:  761.4349398800061
+==================== Mutation ======================
+Fitness before:  2045.7152472039234
+Fitness after:  1311.771793435672
+Sync from RL --> Nevo
+#Games: 514 #Frames: 237074  Train_Max: 3324.20  Test_Score: 2649.07  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 3160.94  PG Loss: -144.6929
+
+==================== Mutation ======================
+Fitness before:  2476.648163471519
+Fitness after:  2401.958697242683
+==================== Mutation ======================
+Fitness before:  3165.92946831305
+Fitness after:  3000.7119498266156
+==================== Mutation ======================
+Fitness before:  3085.0879339261987
+Fitness after:  -542.126592967452
+==================== Mutation ======================
+Fitness before:  2949.1291993589693
+Fitness after:  3048.808138000275
+Sync from RL --> Nevo
+#Games: 520 #Frames: 239074  Train_Max: 287.79  Test_Score: 3189.81  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 3217.59  PG Loss: -146.1780
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.0042510858096648
+Parent 1 1128.2549081047007
+Parent 2 3615.608641616755
+Crossover performance:  2455.836131441212
+==================== Mutation ======================
+Fitness before:  3513.4789737704486
+Fitness after:  3484.8687306075662
+==================== Mutation ======================
+Fitness before:  1724.948338596283
+Fitness after:  509.9079920169623
+==================== Mutation ======================
+Fitness before:  2448.218771525201
+Fitness after:  3306.661343707097
+==================== Mutation ======================
+Fitness before:  2126.6228398160174
+Fitness after:  -398.4766532562818
+Sync from RL --> Nevo
+#Games: 526 #Frames: 241074  Train_Max: 320.35  Test_Score: 1710.80  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2825.79  PG Loss: -147.4347
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.001534487123717554
+Parent 1 3497.9379087579364
+Parent 2 1937.6006469390074
+Crossover performance:  2652.1808135849883
+==================== Mutation ======================
+Fitness before:  3525.2968665536237
+Fitness after:  766.6557288925749
+==================== Mutation ======================
+Fitness before:  3342.2970677144767
+Fitness after:  2415.9541608958507
+Sync from RL --> Nevo
+#Games: 532 #Frames: 247074  Train_Max: 3518.33  Test_Score: 3341.27  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2989.99  PG Loss: -148.7749
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.005261590657755733
+Parent 1 1693.4096009059103
+Parent 2 2927.0297651122523
+Crossover performance:  1503.876007999614
+==================== Distillation Crossover ======================
+MSE Loss: 1.7589892529201733e-07
+Parent 1 967.9347877793459
+Parent 2 1940.3168051582998
+Crossover performance:  145.62371117497221
+==================== Mutation ======================
+Fitness before:  1610.9536486430704
+Fitness after:  1957.7127041943193
+==================== Mutation ======================
+Fitness before:  1940.1639684428737
+Fitness after:  2001.2344991667894
+==================== Mutation ======================
+Fitness before:  2010.9335660385502
+Fitness after:  2286.8103159149296
+==================== Mutation ======================
+Fitness before:  2403.6578692149183
+Fitness after:  2546.1658788073705
+Sync from RL --> Nevo
+#Games: 538 #Frames: 252065  Train_Max: 3727.91  Test_Score: 2374.60  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2982.60  PG Loss: -151.1702
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.012341841729357839
+Parent 1 2977.131042404699
+Parent 2 2269.4955837980306
+Crossover performance:  2463.993625431894
+==================== Distillation Crossover ======================
+MSE Loss: 1.722337593434986e-07
+Parent 1 3197.7229849105706
+Parent 2 3142.0476881252534
+Crossover performance:  2682.1037293408563
+==================== Mutation ======================
+Fitness before:  2937.5778874667635
+Fitness after:  3291.768840175474
+==================== Mutation ======================
+Fitness before:  2612.6587446651515
+Fitness after:  2642.486557071707
+==================== Mutation ======================
+Fitness before:  1453.920229488742
+Fitness after:  2405.412695350621
+==================== Mutation ======================
+Fitness before:  2974.3447151480714
+Fitness after:  3623.6073950051664
+Sync from RL --> Nevo
+#Games: 544 #Frames: 254065  Train_Max: 355.58  Test_Score: 2584.61  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2434.42  PG Loss: -151.8243
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.008550083846785128
+Parent 1 2974.7645898081064
+Parent 2 1694.8264931261092
+Crossover performance:  1593.8502994997596
+==================== Distillation Crossover ======================
+MSE Loss: 1.6155908930670648e-07
+Parent 1 2544.6455826714605
+Parent 2 1859.310751980575
+Crossover performance:  2291.4958896512276
+==================== Mutation ======================
+Fitness before:  1601.9696190090829
+Fitness after:  467.1581292396336
+==================== Mutation ======================
+Fitness before:  2240.256230411168
+Fitness after:  -1898.584175240212
+==================== Mutation ======================
+Fitness before:  2267.637154484402
+Fitness after:  1265.690478515573
+==================== Mutation ======================
+Fitness before:  2410.9958803062823
+Fitness after:  2514.3240716228365
+Sync from RL --> Nevo
+#Games: 550 #Frames: 259115  Train_Max: 3469.17  Test_Score: 2756.24  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2831.33  PG Loss: -153.0623
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.7477508436058996e-07
+Parent 1 2169.0427848185514
+Parent 2 1093.928659593173
+Crossover performance:  1026.7198733773305
+==================== Distillation Crossover ======================
+MSE Loss: 1.7214687844102628e-07
+Parent 1 3011.105472138778
+Parent 2 767.0557386070633
+Crossover performance:  471.30861301904014
+==================== Mutation ======================
+Fitness before:  1160.8598154860247
+Fitness after:  -1544.8002292932902
+==================== Mutation ======================
+Fitness before:  1174.3851459971722
+Fitness after:  1097.1608833175267
+==================== Mutation ======================
+Fitness before:  642.8643153420904
+Fitness after:  1506.5200617009514
+==================== Mutation ======================
+Fitness before:  2597.5332879975035
+Fitness after:  -759.3828032129217
+Sync from RL --> Nevo
+#Games: 556 #Frames: 263485  Train_Max: 3252.60  Test_Score: 1793.36  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1606.52  PG Loss: -155.9986
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.003373224037932232
+Parent 1 851.3861418091394
+Parent 2 53.958004290328496
+Crossover performance:  223.32772000881124
+==================== Mutation ======================
+Fitness before:  1129.3571477151115
+Fitness after:  847.2018055411306
+==================== Mutation ======================
+Fitness before:  988.4413947482292
+Fitness after:  422.8190494660097
+==================== Mutation ======================
+Fitness before:  1286.33080695913
+Fitness after:  -1176.2716078173298
+Sync from RL --> Nevo
+#Games: 562 #Frames: 268706  Train_Max: 3847.99  Test_Score: 2251.98  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 931.20  PG Loss: -158.8186
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.03537313723936677
+Parent 1 1395.9291993510815
+Parent 2 686.876616796879
+Crossover performance:  101.74679927310908
+==================== Distillation Crossover ======================
+MSE Loss: 1.7259705558103634e-07
+Parent 1 1615.5331803835315
+Parent 2 1393.5767898280515
+Crossover performance:  1828.9957479839045
+==================== Mutation ======================
+Fitness before:  545.5897098334573
+Fitness after:  1154.004713773225
+==================== Mutation ======================
+Fitness before:  2148.574596044543
+Fitness after:  -30.156964727507187
+==================== Mutation ======================
+Fitness before:  1723.4584438060926
+Fitness after:  382.21074549196226
+==================== Mutation ======================
+Fitness before:  1623.0489409640836
+Fitness after:  236.08673773935053
+Sync from RL --> Nevo
+#Games: 568 #Frames: 270706  Train_Max: 275.56  Test_Score: 2155.17  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1659.89  PG Loss: -160.2446
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.6422145776573416e-07
+Parent 1 1924.1377965642266
+Parent 2 2121.7752197942777
+Crossover performance:  1891.0250854491055
+==================== Mutation ======================
+Fitness before:  -335.1601056047273
+Fitness after:  -378.7969420484286
+==================== Mutation ======================
+Fitness before:  2221.2775631388
+Fitness after:  799.8018872125788
+==================== Mutation ======================
+Fitness before:  1777.7359014813142
+Fitness after:  303.3793131969592
+==================== Mutation ======================
+Fitness before:  -483.77239880785237
+Fitness after:  -750.6448655279935
+Sync from RL --> Nevo
+#Games: 574 #Frames: 274390  Train_Max: 3382.79  Test_Score: 1649.38  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 3433.57  PG Loss: -161.4015
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.8766937444070208e-07
+Parent 1 3556.888004844902
+Parent 2 3511.0936099469095
+Crossover performance:  3402.231953095556
+==================== Distillation Crossover ======================
+MSE Loss: 0.01732185995206237
+Parent 1 2738.269900632443
+Parent 2 2307.6907055306015
+Crossover performance:  2883.9475158392884
+==================== Mutation ======================
+Fitness before:  2400.838504118105
+Fitness after:  3033.638098232718
+==================== Mutation ======================
+Fitness before:  1556.959872776653
+Fitness after:  2699.9078354148596
+==================== Mutation ======================
+Fitness before:  3205.5260724007894
+Fitness after:  2963.9052923573227
+Sync from RL --> Nevo
+#Games: 580 #Frames: 280097  Train_Max: 3583.65  Test_Score: 2796.69  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2659.37  PG Loss: -165.4602
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.011957054631784559
+Parent 1 2874.5254687630622
+Parent 2 2512.7614862380497
+Crossover performance:  888.5905471207083
+==================== Distillation Crossover ======================
+MSE Loss: 1.781056475635978e-07
+Parent 1 3572.500506825049
+Parent 2 3027.391088092005
+Crossover performance:  2190.386530551615
+==================== Mutation ======================
+Fitness before:  3182.184749927643
+Fitness after:  1950.2514277535345
+==================== Mutation ======================
+Fitness before:  1665.169369485729
+Fitness after:  16.31607676446685
+==================== Mutation ======================
+Fitness before:  3238.092451782804
+Fitness after:  2200.79238973155
+==================== Mutation ======================
+Fitness before:  2397.490094856956
+Fitness after:  2735.55522038341
+Sync from RL --> Nevo
+#Games: 586 #Frames: 282097  Train_Max: 325.68  Test_Score: 2046.88  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 3742.32  PG Loss: -167.3452
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.02432916108518839
+Parent 1 3787.3939261466235
+Parent 2 3100.3302710930107
+Crossover performance:  3611.948571725611
+==================== Mutation ======================
+Fitness before:  3883.7613113708417
+Fitness after:  -443.4422195411142
+==================== Mutation ======================
+Fitness before:  3741.8255854017684
+Fitness after:  3058.182448684581
+==================== Mutation ======================
+Fitness before:  3207.985317590485
+Fitness after:  -883.3574697942543
+==================== Mutation ======================
+Fitness before:  3261.7334744509117
+Fitness after:  2994.4337890609777
+Sync from RL --> Nevo
+#Games: 592 #Frames: 283982  Train_Max: 348.95  Test_Score: 3816.37  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 3410.08  PG Loss: -169.2525
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.8423912671039488e-07
+Parent 1 3026.0969647203847
+Parent 2 2158.0509098945986
+Crossover performance:  3133.816566212621
+==================== Distillation Crossover ======================
+MSE Loss: 0.0072187111945822835
+Parent 1 2815.977092397014
+Parent 2 3414.769108786061
+Crossover performance:  3711.028427021431
+==================== Mutation ======================
+Fitness before:  3731.9520261745333
+Fitness after:  3435.6278030704584
+==================== Mutation ======================
+Fitness before:  3090.074621126267
+Fitness after:  3335.450887803516
+==================== Mutation ======================
+Fitness before:  2626.506830514172
+Fitness after:  725.4418339587288
+==================== Mutation ======================
+Fitness before:  3509.1100145379837
+Fitness after:  -1291.1273411165732
+Sync from RL --> Nevo
+#Games: 598 #Frames: 288778  Train_Max: 3927.25  Test_Score: 3198.19  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2775.98  PG Loss: -171.8284
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.00038060057995608075
+Parent 1 1474.379682826155
+Parent 2 2200.5372482520993
+Crossover performance:  2027.2093469693568
+==================== Mutation ======================
+Fitness before:  1701.810722156343
+Fitness after:  78.08437322286991
+==================== Mutation ======================
+Fitness before:  3301.1167411422057
+Fitness after:  260.11370825127847
+==================== Mutation ======================
+Fitness before:  2317.9740510994243
+Fitness after:  -183.43297763673232
+==================== Mutation ======================
+Fitness before:  1708.4319292657115
+Fitness after:  323.2665451237496
+Sync from RL --> Nevo
+#Games: 604 #Frames: 290513  Train_Max: 331.48  Test_Score: 3418.30  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 3366.53  PG Loss: -174.6485
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.517778446924467e-07
+Parent 1 3924.450932980012
+Parent 2 3898.8231124445483
+Crossover performance:  3956.4844634525884
+==================== Mutation ======================
+Fitness before:  3201.0560583570414
+Fitness after:  2143.647448136485
+==================== Mutation ======================
+Fitness before:  3431.477897622541
+Fitness after:  916.0751132516336
+==================== Mutation ======================
+Fitness before:  3389.2751355052324
+Fitness after:  703.9651782698273
+Sync from RL --> Nevo
+#Games: 610 #Frames: 292513  Train_Max: 386.49  Test_Score: 3838.56  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2925.55  PG Loss: -175.7066
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.01829063242767006
+Parent 1 2560.718695076642
+Parent 2 3060.7442771504866
+Crossover performance:  3094.1884254392526
+==================== Distillation Crossover ======================
+MSE Loss: 1.6939002840388183e-07
+Parent 1 3684.2769238631286
+Parent 2 3713.389387872861
+Crossover performance:  3782.614586980003
+==================== Mutation ======================
+Fitness before:  3083.8441348709057
+Fitness after:  -1232.4662700330591
+==================== Mutation ======================
+Fitness before:  3281.4116466646947
+Fitness after:  2775.2460295837072
+==================== Mutation ======================
+Fitness before:  3670.1175413589
+Fitness after:  3325.111868228744
+==================== Mutation ======================
+Fitness before:  3518.552912551439
+Fitness after:  2922.014047742021
+Sync from RL --> Nevo
+#Games: 616 #Frames: 294513  Train_Max: 320.36  Test_Score: 3448.99  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4162.57  PG Loss: -177.1163
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.003998949594097212
+Parent 1 4303.102147651867
+Parent 2 2577.8406966860557
+Crossover performance:  3999.4882197518127
+==================== Distillation Crossover ======================
+MSE Loss: 1.6632695647444963e-07
+Parent 1 4297.441325367875
+Parent 2 4070.403952620219
+Crossover performance:  4175.562595709724
+==================== Mutation ======================
+Fitness before:  2761.1613337235026
+Fitness after:  4069.2980715407707
+==================== Mutation ======================
+Fitness before:  4238.518224794085
+Fitness after:  3391.045118898328
+==================== Mutation ======================
+Fitness before:  3610.6526362134014
+Fitness after:  2337.3446158845504
+==================== Mutation ======================
+Fitness before:  4040.3711926430287
+Fitness after:  3951.01222057629
+Sync from RL --> Nevo
+#Games: 622 #Frames: 299838  Train_Max: 4199.42  Test_Score: 3777.86  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2043.84  PG Loss: -180.4266
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.683642210537073e-07
+Parent 1 2003.6527659673934
+Parent 2 2699.0975805893704
+Crossover performance:  2359.878968105733
+==================== Mutation ======================
+Fitness before:  3188.8107014901493
+Fitness after:  1637.615540354572
+==================== Mutation ======================
+Fitness before:  1881.8886732907308
+Fitness after:  830.1629642148985
+==================== Mutation ======================
+Fitness before:  1233.9799075591359
+Fitness after:  365.498566132541
+==================== Mutation ======================
+Fitness before:  2462.600703488743
+Fitness after:  2086.170058183101
+Sync from RL --> Nevo
+#Games: 628 #Frames: 305838  Train_Max: 3735.21  Test_Score: 2675.48  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 3180.01  PG Loss: -182.8205
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.0013171690341550856
+Parent 1 2585.094327296077
+Parent 2 3506.577068913631
+Crossover performance:  2610.9201134801715
+==================== Distillation Crossover ======================
+MSE Loss: 1.9430777982165636e-07
+Parent 1 2841.872361784685
+Parent 2 3715.1737868752593
+Crossover performance:  2548.4280564700202
+==================== Mutation ======================
+Fitness before:  1801.5068118358613
+Fitness after:  -1467.3259160730036
+==================== Mutation ======================
+Fitness before:  2383.994974364279
+Fitness after:  1313.214533805439
+==================== Mutation ======================
+Fitness before:  1792.8106423845688
+Fitness after:  -405.27444523676866
+==================== Mutation ======================
+Fitness before:  1760.0173342966632
+Fitness after:  3169.778794129642
+Sync from RL --> Nevo
+#Games: 634 #Frames: 310552  Train_Max: 3935.17  Test_Score: 1936.30  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4103.37  PG Loss: -185.0268
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.016305651608854534
+Parent 1 4081.3616657929865
+Parent 2 4021.9270914149456
+Crossover performance:  3948.3462314842604
+==================== Distillation Crossover ======================
+MSE Loss: 1.6362780428380574e-07
+Parent 1 3727.5610620562315
+Parent 2 3486.8177002583993
+Crossover performance:  3987.917750906524
+==================== Mutation ======================
+Fitness before:  3997.353402234691
+Fitness after:  4069.5613845990765
+==================== Mutation ======================
+Fitness before:  4087.2971541001352
+Fitness after:  3273.806008552486
+==================== Mutation ======================
+Fitness before:  3895.4663600655085
+Fitness after:  -1940.5636295802317
+==================== Mutation ======================
+Fitness before:  4042.2072228958073
+Fitness after:  4029.721817056332
+Sync from RL --> Nevo
+#Games: 640 #Frames: 312552  Train_Max: 334.48  Test_Score: 3969.78  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2707.72  PG Loss: -187.4642
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.0026902334415353835
+Parent 1 1784.4633857176286
+Parent 2 2904.3020637728464
+Crossover performance:  2918.6762789122677
+==================== Distillation Crossover ======================
+MSE Loss: 1.580128468958719e-07
+Parent 1 4013.7386271037713
+Parent 2 3564.3032001774363
+Crossover performance:  3218.2295667333055
+==================== Mutation ======================
+Fitness before:  1877.8979795342245
+Fitness after:  -326.63932425470153
+==================== Mutation ======================
+Fitness before:  4189.831504342622
+Fitness after:  1138.8800272098883
+==================== Mutation ======================
+Fitness before:  2346.093385743826
+Fitness after:  2371.893024398794
+==================== Mutation ======================
+Fitness before:  2924.9182116515453
+Fitness after:  1668.192950122313
+Sync from RL --> Nevo
+#Games: 646 #Frames: 314552  Train_Max: 364.29  Test_Score: 3241.13  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 3066.90  PG Loss: -188.6825
+
+==================== Mutation ======================
+Fitness before:  2101.452190725172
+Fitness after:  -867.6135014305291
+==================== Mutation ======================
+Fitness before:  3559.936488486516
+Fitness after:  3448.1893777687364
+==================== Mutation ======================
+Fitness before:  2843.2123482525994
+Fitness after:  1086.9748021555247
+Sync from RL --> Nevo
+#Games: 652 #Frames: 319988  Train_Max: 3647.53  Test_Score: 3429.58  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 3849.57  PG Loss: -190.2492
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.0037367298267781735
+Parent 1 4293.854281890298
+Parent 2 4118.759298635966
+Crossover performance:  3897.924055361707
+==================== Distillation Crossover ======================
+MSE Loss: 1.910437983809743e-07
+Parent 1 4134.294131929028
+Parent 2 3839.912479146944
+Crossover performance:  3817.384274947578
+==================== Mutation ======================
+Fitness before:  4216.898724618867
+Fitness after:  -812.7758377969593
+==================== Mutation ======================
+Fitness before:  4333.959691504347
+Fitness after:  -245.3723475488095
+==================== Mutation ======================
+Fitness before:  4235.737783432725
+Fitness after:  2835.029283163053
+Sync from RL --> Nevo
+#Games: 658 #Frames: 325988  Train_Max: 4177.67  Test_Score: 4197.04  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 3460.93  PG Loss: -192.9832
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.007463922305032611
+Parent 1 3177.783030760312
+Parent 2 4148.682863299493
+Crossover performance:  3245.339062335112
+==================== Mutation ======================
+Fitness before:  3630.8700856526557
+Fitness after:  2776.553671294152
+==================== Mutation ======================
+Fitness before:  3396.653365503537
+Fitness after:  3266.122290412807
+==================== Mutation ======================
+Fitness before:  4240.137032271502
+Fitness after:  3625.352493962463
+==================== Mutation ======================
+Fitness before:  4137.282207138408
+Fitness after:  4258.684229830846
+Sync from RL --> Nevo
+#Games: 664 #Frames: 327833  Train_Max: 401.01  Test_Score: 3242.65  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4049.41  PG Loss: -194.4521
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.006327004544436932
+Parent 1 4184.461253060759
+Parent 2 4011.518959281286
+Crossover performance:  4137.671333095229
+==================== Distillation Crossover ======================
+MSE Loss: 1.7443585385024107e-07
+Parent 1 4141.031056016775
+Parent 2 4061.382034929889
+Crossover performance:  3561.3293966517535
+==================== Mutation ======================
+Fitness before:  3368.030957785176
+Fitness after:  2085.073591842567
+==================== Mutation ======================
+Fitness before:  4151.11889996916
+Fitness after:  390.8353617921695
+==================== Mutation ======================
+Fitness before:  4146.37536153723
+Fitness after:  2903.520644888643
+Sync from RL --> Nevo
+#Games: 670 #Frames: 329833  Train_Max: 382.41  Test_Score: 3773.66  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 3832.47  PG Loss: -194.7193
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.003173665254143998
+Parent 1 4108.2358498860685
+Parent 2 4259.482190837256
+Crossover performance:  3368.537650949956
+==================== Distillation Crossover ======================
+MSE Loss: 2.0885667630921035e-07
+Parent 1 3642.1849749421126
+Parent 2 2876.8239210199945
+Crossover performance:  3680.172105338263
+==================== Mutation ======================
+Fitness before:  3602.1197018108855
+Fitness after:  2933.870824820836
+==================== Mutation ======================
+Fitness before:  3974.018239647429
+Fitness after:  -942.7869943409381
+==================== Mutation ======================
+Fitness before:  3464.651351088036
+Fitness after:  3323.1322702383377
+==================== Mutation ======================
+Fitness before:  3511.72734516739
+Fitness after:  -431.07754730700043
+Sync from RL --> Nevo
+#Games: 676 #Frames: 331833  Train_Max: 390.43  Test_Score: 3844.43  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 3878.96  PG Loss: -196.6147
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.0030858825193718076
+Parent 1 3296.6924826298878
+Parent 2 4331.4537602603705
+Crossover performance:  4385.240625536004
+==================== Distillation Crossover ======================
+MSE Loss: 1.639315978962941e-07
+Parent 1 3596.4469871136253
+Parent 2 3039.989501932959
+Crossover performance:  2854.2917077084126
+==================== Mutation ======================
+Fitness before:  4359.528317753425
+Fitness after:  3499.071484516121
+==================== Mutation ======================
+Fitness before:  2829.9250538573638
+Fitness after:  -782.5724238304294
+==================== Mutation ======================
+Fitness before:  4335.268070910085
+Fitness after:  4279.846469722269
+Sync from RL --> Nevo
+#Games: 682 #Frames: 337545  Train_Max: 4091.26  Test_Score: 3304.80  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 3451.10  PG Loss: -198.8647
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.0026202906214166433
+Parent 1 3699.277563037035
+Parent 2 3148.4250319866137
+Crossover performance:  3331.5474612326752
+==================== Distillation Crossover ======================
+MSE Loss: 1.859397951164965e-07
+Parent 1 4131.4993753769895
+Parent 2 3970.155609301107
+Crossover performance:  4223.807120954067
+==================== Mutation ======================
+Fitness before:  3669.8366272943945
+Fitness after:  2531.2567322685704
+==================== Mutation ======================
+Fitness before:  1774.632797983846
+Fitness after:  493.5292859115525
+==================== Mutation ======================
+Fitness before:  1954.621847818645
+Fitness after:  2321.662966583277
+==================== Mutation ======================
+Fitness before:  3419.0552083090033
+Fitness after:  -80.1381247614697
+Sync from RL --> Nevo
+#Games: 688 #Frames: 339469  Train_Max: 328.63  Test_Score: 2902.38  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4094.56  PG Loss: -200.2997
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.009064779500477016
+Parent 1 3926.7162256998695
+Parent 2 3851.3667519532114
+Crossover performance:  3603.3557966159583
+==================== Distillation Crossover ======================
+MSE Loss: 1.6167343694917235e-07
+Parent 1 4281.927553327786
+Parent 2 3587.9816136755667
+Crossover performance:  4191.412322392093
+==================== Mutation ======================
+Fitness before:  3395.5149446358164
+Fitness after:  -1575.7761193474892
+==================== Mutation ======================
+Fitness before:  4116.247312866728
+Fitness after:  4030.705668958516
+==================== Mutation ======================
+Fitness before:  3980.065686339104
+Fitness after:  3895.260986683962
+Sync from RL --> Nevo
+#Games: 694 #Frames: 341453  Train_Max: 397.47  Test_Score: 4246.43  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2114.93  PG Loss: -202.2590
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.0010061213091830724
+Parent 1 2760.5140228058153
+Parent 2 991.0061122415416
+Crossover performance:  2315.0181955848275
+==================== Distillation Crossover ======================
+MSE Loss: 1.724088722454553e-07
+Parent 1 2509.9676287602183
+Parent 2 2243.5514054711925
+Crossover performance:  2098.8696007842786
+==================== Mutation ======================
+Fitness before:  672.5187524852807
+Fitness after:  60.6670600223335
+==================== Mutation ======================
+Fitness before:  1881.4259021767007
+Fitness after:  331.788615608972
+==================== Mutation ======================
+Fitness before:  1847.3166285345746
+Fitness after:  -775.3798018324225
+==================== Mutation ======================
+Fitness before:  2087.689765712187
+Fitness after:  -353.1834732028004
+Sync from RL --> Nevo
+#Games: 700 #Frames: 343152  Train_Max: 341.71  Test_Score: 1686.69  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2244.51  PG Loss: -202.9524
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.9955221866041484e-07
+Parent 1 3450.5312900167964
+Parent 2 3755.9291102404727
+Crossover performance:  3574.6213483523156
+==================== Mutation ======================
+Fitness before:  3853.6055065767564
+Fitness after:  3799.880602497633
+==================== Mutation ======================
+Fitness before:  267.6300516559997
+Fitness after:  -44.672298224399356
+==================== Mutation ======================
+Fitness before:  3787.290064407944
+Fitness after:  -610.799822993113
+Sync from RL --> Nevo
+#Games: 706 #Frames: 347746  Train_Max: 3893.78  Test_Score: 3467.90  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1668.35  PG Loss: -203.4164
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.0653915535658598
+Parent 1 2333.1745369326013
+Parent 2 1758.3134827955819
+Crossover performance:  421.72995797086895
+==================== Distillation Crossover ======================
+MSE Loss: 1.757198962337725e-07
+Parent 1 2525.1235548056998
+Parent 2 2507.1652541701187
+Crossover performance:  2991.0151625892086
+==================== Mutation ======================
+Fitness before:  2753.2541660400775
+Fitness after:  -1738.1647081759195
+==================== Mutation ======================
+Fitness before:  3038.3642628194125
+Fitness after:  -278.6574336734785
+==================== Mutation ======================
+Fitness before:  2998.6562207559627
+Fitness after:  289.0275793179508
+==================== Mutation ======================
+Fitness before:  449.85851320425445
+Fitness after:  145.5454253305356
+Sync from RL --> Nevo
+#Games: 712 #Frames: 349746  Train_Max: 327.96  Test_Score: 3006.16  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1648.61  PG Loss: -204.5168
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.012062053917907179
+Parent 1 2156.5101394445637
+Parent 2 1826.2782801137632
+Crossover performance:  1274.5521442143697
+==================== Mutation ======================
+Fitness before:  3389.020504031481
+Fitness after:  3647.5843445886358
+==================== Mutation ======================
+Fitness before:  1817.8935121762665
+Fitness after:  -1011.55884129804
+==================== Mutation ======================
+Fitness before:  2116.9507315992228
+Fitness after:  1981.1456111421103
+==================== Mutation ======================
+Fitness before:  2583.9381223490827
+Fitness after:  -493.500575492115
+Sync from RL --> Nevo
+#Games: 718 #Frames: 352433  Train_Max: 1981.78  Test_Score: 1991.76  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4368.52  PG Loss: -204.8993
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.005190588952973485
+Parent 1 4389.423723814223
+Parent 2 3397.228941388751
+Crossover performance:  4490.486250953906
+==================== Distillation Crossover ======================
+MSE Loss: 1.752181375991313e-07
+Parent 1 4346.830663636651
+Parent 2 4410.331933009839
+Crossover performance:  4339.720696364502
+==================== Mutation ======================
+Fitness before:  4404.0856067107925
+Fitness after:  4037.1822860270354
+==================== Mutation ======================
+Fitness before:  3930.523519651351
+Fitness after:  3208.304834250869
+==================== Mutation ======================
+Fitness before:  4316.647315063004
+Fitness after:  4453.942732466452
+Sync from RL --> Nevo
+#Games: 724 #Frames: 354433  Train_Max: 367.46  Test_Score: 4376.20  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4391.42  PG Loss: -206.9386
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.00321654854924418
+Parent 1 4204.769740855224
+Parent 2 3819.4895387467527
+Crossover performance:  3657.63113537017
+==================== Distillation Crossover ======================
+MSE Loss: 1.8092815992076794e-07
+Parent 1 4221.624871546389
+Parent 2 4203.939236167322
+Crossover performance:  4274.043352922156
+==================== Mutation ======================
+Fitness before:  3789.535434754843
+Fitness after:  4092.0871309862496
+==================== Mutation ======================
+Fitness before:  4324.802611880499
+Fitness after:  1606.273912946838
+==================== Mutation ======================
+Fitness before:  4387.238294710019
+Fitness after:  4087.7735328650974
+==================== Mutation ======================
+Fitness before:  4270.099156819024
+Fitness after:  -849.2067397257603
+Sync from RL --> Nevo
+#Games: 730 #Frames: 356417  Train_Max: 387.40  Test_Score: 4262.18  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4016.40  PG Loss: -208.0727
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.005960937333293259
+Parent 1 4064.366853130357
+Parent 2 3420.0828605846136
+Crossover performance:  3492.9625009640395
+==================== Distillation Crossover ======================
+MSE Loss: 1.7890783574614488e-07
+Parent 1 3914.6975981186815
+Parent 2 3970.656479897642
+Crossover performance:  4194.985827179055
+==================== Mutation ======================
+Fitness before:  3581.102372561588
+Fitness after:  -604.9361383151163
+==================== Mutation ======================
+Fitness before:  4039.690939632511
+Fitness after:  3498.598442697178
+==================== Mutation ======================
+Fitness before:  4042.5266725982547
+Fitness after:  4041.029182806438
+==================== Mutation ======================
+Fitness before:  3504.419792283621
+Fitness after:  -807.0032816842229
+Sync from RL --> Nevo
+#Games: 736 #Frames: 358417  Train_Max: 352.59  Test_Score: 3594.78  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4337.00  PG Loss: -208.9261
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.002370476955547929
+Parent 1 4460.427075346695
+Parent 2 4364.118193271596
+Crossover performance:  3886.3493551433216
+==================== Mutation ======================
+Fitness before:  2894.992964500121
+Fitness after:  1113.5898280696035
+==================== Mutation ======================
+Fitness before:  4143.325491217134
+Fitness after:  -1034.1694124198043
+==================== Mutation ======================
+Fitness before:  4343.149953313794
+Fitness after:  -440.27699413092176
+==================== Mutation ======================
+Fitness before:  4545.505105270195
+Fitness after:  -531.4718045747143
+Sync from RL --> Nevo
+#Games: 742 #Frames: 360417  Train_Max: 380.62  Test_Score: 4350.91  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 3333.37  PG Loss: -210.5351
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.6316632667212616e-07
+Parent 1 3899.148290771788
+Parent 2 4160.322308456792
+Crossover performance:  4202.221022897948
+==================== Mutation ======================
+Fitness before:  3773.3325534021797
+Fitness after:  3588.051203760674
+==================== Mutation ======================
+Fitness before:  4355.503583473304
+Fitness after:  1824.9040768572697
+==================== Mutation ======================
+Fitness before:  3027.2619360811404
+Fitness after:  2050.368366169266
+==================== Mutation ======================
+Fitness before:  4237.706183560615
+Fitness after:  3792.1400036547993
+Sync from RL --> Nevo
+#Games: 748 #Frames: 362279  Train_Max: 401.64  Test_Score: 3559.14  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4301.71  PG Loss: -211.5452
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.6370538595822383e-07
+Parent 1 3096.8383457037235
+Parent 2 4381.495306014481
+Crossover performance:  4408.499243665436
+==================== Mutation ======================
+Fitness before:  4209.209717370569
+Fitness after:  4414.7489727215
+==================== Mutation ======================
+Fitness before:  2987.929590736609
+Fitness after:  2322.0383290880986
+==================== Mutation ======================
+Fitness before:  4407.809547857254
+Fitness after:  317.73321473878417
+Sync from RL --> Nevo
+#Games: 754 #Frames: 368279  Train_Max: 4313.50  Test_Score: 4435.44  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4187.80  PG Loss: -214.8223
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.012018078984692693
+Parent 1 4294.468224116435
+Parent 2 3134.7405637338666
+Crossover performance:  3550.103588904722
+==================== Distillation Crossover ======================
+MSE Loss: 1.745612770776006e-07
+Parent 1 4132.677021648418
+Parent 2 4399.9169880517165
+Crossover performance:  3503.9451567735914
+==================== Mutation ======================
+Fitness before:  4168.662849662467
+Fitness after:  -1570.7991254466826
+==================== Mutation ======================
+Fitness before:  3412.004364088277
+Fitness after:  4379.197000236483
+==================== Mutation ======================
+Fitness before:  4248.201599327856
+Fitness after:  -833.0995732595657
+==================== Mutation ======================
+Fitness before:  3092.1254070785026
+Fitness after:  2269.00300432552
+Sync from RL --> Nevo
+#Games: 760 #Frames: 374279  Train_Max: 4242.19  Test_Score: 4041.62  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4362.44  PG Loss: -217.7545
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.004543513222597539
+Parent 1 4477.212214688834
+Parent 2 3622.102143948728
+Crossover performance:  4241.258076000748
+==================== Distillation Crossover ======================
+MSE Loss: 1.730440924774257e-07
+Parent 1 4344.374103430276
+Parent 2 4286.215566625658
+Crossover performance:  4400.694182917215
+==================== Mutation ======================
+Fitness before:  4332.523617191254
+Fitness after:  4150.260421657536
+==================== Mutation ======================
+Fitness before:  4307.694704583164
+Fitness after:  4356.421810128335
+==================== Mutation ======================
+Fitness before:  4400.7200190609165
+Fitness after:  3954.9289841313926
+==================== Mutation ======================
+Fitness before:  3765.68344885358
+Fitness after:  1817.9637957855248
+Sync from RL --> Nevo
+#Games: 766 #Frames: 376279  Train_Max: 402.74  Test_Score: 4392.24  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4616.25  PG Loss: -218.5597
+
+==================== Distillation Crossover ======================
+MSE Loss: 2.541272468903344e-07
+Parent 1 4212.5459416033145
+Parent 2 4639.4216974013025
+Crossover performance:  4590.021040454483
+==================== Mutation ======================
+Fitness before:  3945.629278681105
+Fitness after:  214.02229698323814
+==================== Mutation ======================
+Fitness before:  4435.505577277019
+Fitness after:  2149.2984999163837
+==================== Mutation ======================
+Fitness before:  4651.449524936344
+Fitness after:  -190.7402584332122
+==================== Mutation ======================
+Fitness before:  3753.8887482259174
+Fitness after:  4609.384756569761
+Sync from RL --> Nevo
+#Games: 772 #Frames: 382265  Train_Max: 4720.75  Test_Score: 4521.89  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 3851.00  PG Loss: -221.5395
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.072848857101053
+Parent 1 4051.2983076548203
+Parent 2 3601.7083804370377
+Crossover performance:  3094.346571680255
+==================== Distillation Crossover ======================
+MSE Loss: 1.6366693529334951e-07
+Parent 1 4303.980993193918
+Parent 2 4368.145491951445
+Crossover performance:  2868.113079517744
+==================== Mutation ======================
+Fitness before:  4369.194827974232
+Fitness after:  2078.3659483612328
+==================== Mutation ======================
+Fitness before:  3809.106001710702
+Fitness after:  3485.521617382024
+==================== Mutation ======================
+Fitness before:  4404.208266853015
+Fitness after:  -594.6355613578332
+Sync from RL --> Nevo
+#Games: 778 #Frames: 387999  Train_Max: 4291.11  Test_Score: 3671.38  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4466.37  PG Loss: -224.0986
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.013270270614884793
+Parent 1 4280.105519811487
+Parent 2 3658.161062073655
+Crossover performance:  4011.2176372245426
+==================== Distillation Crossover ======================
+MSE Loss: 1.6345294220343476e-07
+Parent 1 3358.9316311949187
+Parent 2 4460.866660068447
+Crossover performance:  4441.114600668892
+==================== Mutation ======================
+Fitness before:  4383.885650160477
+Fitness after:  2289.5731144027936
+==================== Mutation ======================
+Fitness before:  4512.437711777793
+Fitness after:  -391.62922941912154
+Sync from RL --> Nevo
+#Games: 784 #Frames: 393697  Train_Max: 4625.69  Test_Score: 4449.03  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4520.42  PG Loss: -225.9624
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.00607638675137423
+Parent 1 4478.125667856332
+Parent 2 4471.145393904229
+Crossover performance:  4598.670801465104
+==================== Distillation Crossover ======================
+MSE Loss: 1.6908644440150056e-07
+Parent 1 4464.633713856027
+Parent 2 3986.0785162381494
+Crossover performance:  4522.324489235631
+==================== Mutation ======================
+Fitness before:  4497.15875845338
+Fitness after:  -438.611694374963
+==================== Mutation ======================
+Fitness before:  3786.2169403850507
+Fitness after:  736.7960165403205
+==================== Mutation ======================
+Fitness before:  4221.56605603285
+Fitness after:  1417.1515299580237
+==================== Mutation ======================
+Fitness before:  4654.689840432028
+Fitness after:  4583.047329656437
+Sync from RL --> Nevo
+#Games: 790 #Frames: 399109  Train_Max: 4423.92  Test_Score: 4405.82  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4348.90  PG Loss: -228.9723
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.0013382979872403667
+Parent 1 3254.0312259513503
+Parent 2 3596.477053560774
+Crossover performance:  4216.282923355049
+==================== Mutation ======================
+Fitness before:  1990.4941816395644
+Fitness after:  2927.4516452603575
+==================== Mutation ======================
+Fitness before:  4442.700279146013
+Fitness after:  4516.2514123362
+==================== Mutation ======================
+Fitness before:  3722.617023879432
+Fitness after:  3480.5955742728534
+Sync from RL --> Nevo
+#Games: 796 #Frames: 401109  Train_Max: 348.93  Test_Score: 3886.23  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4568.35  PG Loss: -230.5760
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.009467571938876063
+Parent 1 4073.495118751708
+Parent 2 3675.3154071608415
+Crossover performance:  3523.098234424123
+==================== Mutation ======================
+Fitness before:  4142.780313211784
+Fitness after:  4120.107442030761
+==================== Mutation ======================
+Fitness before:  4348.959251689963
+Fitness after:  -408.2260083884702
+==================== Mutation ======================
+Fitness before:  4147.134770203075
+Fitness after:  3455.3418130459895
+==================== Mutation ======================
+Fitness before:  4297.665445467367
+Fitness after:  2477.4781083862117
+Sync from RL --> Nevo
+#Games: 802 #Frames: 407109  Train_Max: 4578.79  Test_Score: 4465.52  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2633.44  PG Loss: -232.7246
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.02303725192323327
+Parent 1 1731.9944381471475
+Parent 2 1349.3446458069645
+Crossover performance:  2144.460275968885
+==================== Distillation Crossover ======================
+MSE Loss: 1.7272116714650565e-07
+Parent 1 2202.8432846672276
+Parent 2 1173.120897399533
+Crossover performance:  1316.4293753701918
+==================== Mutation ======================
+Fitness before:  2952.002553892716
+Fitness after:  2539.56859526035
+==================== Mutation ======================
+Fitness before:  1274.7808784996798
+Fitness after:  730.9937933589241
+==================== Mutation ======================
+Fitness before:  1601.9954880323303
+Fitness after:  -1130.543205388089
+Sync from RL --> Nevo
+#Games: 808 #Frames: 410150  Train_Max: 2406.10  Test_Score: 1659.59  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4272.23  PG Loss: -235.2499
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.02309613013640046
+Parent 1 4373.72538297067
+Parent 2 3245.39707527786
+Crossover performance:  3895.6590051987355
+==================== Mutation ======================
+Fitness before:  2634.997917864915
+Fitness after:  2746.387913629113
+==================== Mutation ======================
+Fitness before:  2986.243139889157
+Fitness after:  -767.0244463428342
+==================== Mutation ======================
+Fitness before:  4406.4707630396
+Fitness after:  3340.749568403067
+==================== Mutation ======================
+Fitness before:  4138.947845360872
+Fitness after:  4152.749987943415
+Sync from RL --> Nevo
+#Games: 814 #Frames: 415187  Train_Max: 4402.71  Test_Score: 4182.18  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2806.59  PG Loss: -237.7811
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.010815532295964658
+Parent 1 3862.170870022729
+Parent 2 3138.7723908327034
+Crossover performance:  3618.04950849179
+==================== Distillation Crossover ======================
+MSE Loss: 2.0705866958792286e-07
+Parent 1 1689.3387315847583
+Parent 2 3345.671165668466
+Crossover performance:  3044.6318209969386
+==================== Mutation ======================
+Fitness before:  2892.4793235102
+Fitness after:  3457.777908057701
+==================== Mutation ======================
+Fitness before:  3743.079156068949
+Fitness after:  1360.0612259319782
+==================== Mutation ======================
+Fitness before:  3551.604052633645
+Fitness after:  2391.4212822417476
+==================== Mutation ======================
+Fitness before:  2730.378839106079
+Fitness after:  2648.661705633549
+Sync from RL --> Nevo
+#Games: 820 #Frames: 419469  Train_Max: 4014.74  Test_Score: 3494.59  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4521.72  PG Loss: -240.4810
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.005872437154175713
+Parent 1 3394.427998549727
+Parent 2 4263.75585980563
+Crossover performance:  3612.8034138911767
+==================== Distillation Crossover ======================
+MSE Loss: 2.1702449402027923e-07
+Parent 1 3680.2902477102966
+Parent 2 3070.552992008953
+Crossover performance:  2804.1512734010785
+==================== Mutation ======================
+Fitness before:  4306.275877044053
+Fitness after:  -654.0579166272425
+==================== Mutation ======================
+Fitness before:  3462.1334142323585
+Fitness after:  3479.867451770052
+==================== Mutation ======================
+Fitness before:  4517.357208628183
+Fitness after:  -885.0112899783802
+Sync from RL --> Nevo
+#Games: 826 #Frames: 420576  Train_Max: 372.31  Test_Score: 2824.78  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4276.36  PG Loss: -242.1640
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.016117744660004974
+Parent 1 4769.58427677212
+Parent 2 4097.719614330832
+Crossover performance:  4614.545472586651
+==================== Mutation ======================
+Fitness before:  4257.660262054889
+Fitness after:  4427.061719635982
+==================== Mutation ======================
+Fitness before:  3363.317872943805
+Fitness after:  3776.931238726697
+==================== Mutation ======================
+Fitness before:  3818.1764469525287
+Fitness after:  -779.62548190354
+==================== Mutation ======================
+Fitness before:  3498.732671468174
+Fitness after:  3913.703165493981
+Sync from RL --> Nevo
+#Games: 832 #Frames: 426576  Train_Max: 4615.50  Test_Score: 4382.29  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 3306.77  PG Loss: -243.6806
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.011465324379969388
+Parent 1 4336.57867391669
+Parent 2 2570.717374492431
+Crossover performance:  3679.285483046897
+==================== Distillation Crossover ======================
+MSE Loss: 1.9886844704330997e-07
+Parent 1 4416.8576169142925
+Parent 2 4460.447519121834
+Crossover performance:  4283.862887531941
+==================== Mutation ======================
+Fitness before:  3761.4316565147174
+Fitness after:  -156.00018901778543
+==================== Mutation ======================
+Fitness before:  4379.697979690859
+Fitness after:  2835.573281467538
+==================== Mutation ======================
+Fitness before:  3591.9914102476478
+Fitness after:  553.7442130147608
+==================== Mutation ======================
+Fitness before:  4110.078272953468
+Fitness after:  3322.765916976246
+Sync from RL --> Nevo
+#Games: 838 #Frames: 431829  Train_Max: 4533.62  Test_Score: 3891.93  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4011.75  PG Loss: -246.3510
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.029072092659771443
+Parent 1 4060.6713197968493
+Parent 2 4445.102058499549
+Crossover performance:  3129.664219429894
+==================== Distillation Crossover ======================
+MSE Loss: 1.86127486401233e-07
+Parent 1 4742.040195075275
+Parent 2 3267.3396104861313
+Crossover performance:  3494.0210559931948
+==================== Mutation ======================
+Fitness before:  3618.4674670939726
+Fitness after:  4039.6531035686503
+==================== Mutation ======================
+Fitness before:  3507.0723566738757
+Fitness after:  3940.4795523408056
+==================== Mutation ======================
+Fitness before:  4573.061827816234
+Fitness after:  1424.1356499771134
+==================== Mutation ======================
+Fitness before:  4592.978785466056
+Fitness after:  3603.81639702789
+Sync from RL --> Nevo
+#Games: 844 #Frames: 433656  Train_Max: 392.65  Test_Score: 4042.14  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 3363.71  PG Loss: -247.0002
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.008460371033288538
+Parent 1 2647.5369718640563
+Parent 2 3745.5596382909557
+Crossover performance:  3040.5289212611847
+==================== Distillation Crossover ======================
+MSE Loss: 1.7411911770182087e-07
+Parent 1 2564.895882045647
+Parent 2 3348.564544641671
+Crossover performance:  2378.1476517839233
+==================== Mutation ======================
+Fitness before:  2940.969073432849
+Fitness after:  2385.415054582129
+==================== Mutation ======================
+Fitness before:  3356.0319802845165
+Fitness after:  3443.15136996618
+==================== Mutation ======================
+Fitness before:  4459.7910440311025
+Fitness after:  -1759.6511280552302
+==================== Mutation ======================
+Fitness before:  3252.1751985740807
+Fitness after:  632.0783851591483
+Sync from RL --> Nevo
+#Games: 850 #Frames: 438686  Train_Max: 4081.02  Test_Score: 3465.23  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 3980.54  PG Loss: -248.9909
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.004282759374473244
+Parent 1 4188.126196523151
+Parent 2 926.7443666702993
+Crossover performance:  3895.6892016591764
+==================== Distillation Crossover ======================
+MSE Loss: 2.0766859485377153e-07
+Parent 1 3814.100899666213
+Parent 2 3366.401547730021
+Crossover performance:  4477.780112950623
+==================== Mutation ======================
+Fitness before:  3963.1148568113217
+Fitness after:  3753.217556455145
+==================== Mutation ======================
+Fitness before:  2492.713095256756
+Fitness after:  2936.9855215478565
+==================== Mutation ======================
+Fitness before:  1397.2412976843443
+Fitness after:  3797.4098244166207
+Sync from RL --> Nevo
+#Games: 856 #Frames: 442300  Train_Max: 4382.12  Test_Score: 4151.93  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4709.22  PG Loss: -251.2386
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.734505534756181e-07
+Parent 1 4737.2715870868
+Parent 2 4716.033983177396
+Crossover performance:  4716.924788631521
+==================== Distillation Crossover ======================
+MSE Loss: 0.0019525020441506058
+Parent 1 4598.3925353959985
+Parent 2 4525.818166333568
+Crossover performance:  4680.138769418519
+==================== Mutation ======================
+Fitness before:  4540.800662193483
+Fitness after:  4218.47093008476
+==================== Mutation ======================
+Fitness before:  4731.854261947175
+Fitness after:  4190.510701998704
+==================== Mutation ======================
+Fitness before:  4677.955601340838
+Fitness after:  4177.9726530670605
+==================== Mutation ======================
+Fitness before:  4658.562059901933
+Fitness after:  -758.3751804151009
+Sync from RL --> Nevo
+#Games: 862 #Frames: 448300  Train_Max: 4962.29  Test_Score: 4673.49  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4799.65  PG Loss: -253.9532
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.005939061800017953
+Parent 1 4839.200732625913
+Parent 2 3073.536604634904
+Crossover performance:  4846.297307143775
+==================== Mutation ======================
+Fitness before:  4389.918201875824
+Fitness after:  3083.2612221293325
+==================== Mutation ======================
+Fitness before:  4495.728164459979
+Fitness after:  4099.41447473545
+Sync from RL --> Nevo
+#Games: 868 #Frames: 453414  Train_Max: 4742.88  Test_Score: 4837.71  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4770.58  PG Loss: -256.6634
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.003382537543075159
+Parent 1 4873.27696952417
+Parent 2 4576.968967693609
+Crossover performance:  3780.09478525007
+==================== Distillation Crossover ======================
+MSE Loss: 1.7832586181043552e-07
+Parent 1 4937.56379303679
+Parent 2 4834.640558112282
+Crossover performance:  4842.319789903571
+==================== Mutation ======================
+Fitness before:  4825.037130454131
+Fitness after:  4323.836637289567
+==================== Mutation ======================
+Fitness before:  4796.844016062881
+Fitness after:  -1308.0342839341367
+==================== Mutation ======================
+Fitness before:  3956.2890123971556
+Fitness after:  4614.101487545745
+Sync from RL --> Nevo
+#Games: 874 #Frames: 455414  Train_Max: 407.61  Test_Score: 4842.19  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4514.42  PG Loss: -257.3910
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.0018187998241046444
+Parent 1 4010.4916448014765
+Parent 2 4026.120431222907
+Crossover performance:  4757.462471262852
+==================== Distillation Crossover ======================
+MSE Loss: 1.7190511556464116e-07
+Parent 1 4951.314535441286
+Parent 2 4889.791602392199
+Crossover performance:  4866.485005454677
+==================== Mutation ======================
+Fitness before:  4582.127151393581
+Fitness after:  4703.302756886111
+==================== Mutation ======================
+Fitness before:  4867.3153601334025
+Fitness after:  3891.466575246217
+==================== Mutation ======================
+Fitness before:  4682.908590181654
+Fitness after:  4557.796213537037
+==================== Mutation ======================
+Fitness before:  4277.155439354634
+Fitness after:  -213.3228750135715
+Sync from RL --> Nevo
+#Games: 880 #Frames: 457414  Train_Max: 456.13  Test_Score: 4715.07  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4385.18  PG Loss: -257.9695
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.0038357626122888177
+Parent 1 4337.361555895696
+Parent 2 4686.081552342452
+Crossover performance:  4071.0674615634684
+==================== Mutation ======================
+Fitness before:  4366.040154947605
+Fitness after:  4294.969305631809
+==================== Mutation ======================
+Fitness before:  4158.0684600934155
+Fitness after:  3681.7919818609616
+==================== Mutation ======================
+Fitness before:  4611.581744025777
+Fitness after:  4681.455124982314
+Sync from RL --> Nevo
+#Games: 886 #Frames: 462876  Train_Max: 4849.40  Test_Score: 4411.06  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4615.27  PG Loss: -259.8055
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.0006887336407089606
+Parent 1 4817.422006252703
+Parent 2 4816.110576394656
+Crossover performance:  4758.698638485399
+==================== Distillation Crossover ======================
+MSE Loss: 1.8650801294484154e-07
+Parent 1 4836.423671496177
+Parent 2 4710.735124710929
+Crossover performance:  4714.275917070021
+==================== Mutation ======================
+Fitness before:  4759.774593422636
+Fitness after:  19.215949927551883
+==================== Mutation ======================
+Fitness before:  4812.496339851783
+Fitness after:  -345.0041689568685
+==================== Mutation ======================
+Fitness before:  4621.421799855107
+Fitness after:  -1489.664041507727
+Sync from RL --> Nevo
+#Games: 892 #Frames: 468876  Train_Max: 4842.34  Test_Score: 3851.61  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 2835.49  PG Loss: -262.2653
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.9796399115534767e-07
+Parent 1 1853.9610918630992
+Parent 2 1368.6379649324404
+Crossover performance:  2698.842450030894
+==================== Distillation Crossover ======================
+MSE Loss: 1.9527280343822894e-07
+Parent 1 2037.8221163291842
+Parent 2 2980.495231750066
+Crossover performance:  1910.0853549949145
+==================== Distillation Crossover ======================
+MSE Loss: 1.972523808291271e-07
+Parent 1 2724.2836990784926
+Parent 2 3437.89074725603
+Crossover performance:  1639.5630469071602
+==================== Mutation ======================
+Fitness before:  3234.2848423416945
+Fitness after:  2475.072842319172
+==================== Mutation ======================
+Fitness before:  3600.1063132472786
+Fitness after:  2190.5537942477295
+==================== Mutation ======================
+Fitness before:  3149.004123488356
+Fitness after:  1914.9113591251134
+==================== Mutation ======================
+Fitness before:  2466.0673119338653
+Fitness after:  -1182.4537516941537
+Sync from RL --> Nevo
+#Games: 898 #Frames: 469914  Train_Max: 452.75  Test_Score: 2997.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4737.81  PG Loss: -263.5854
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.5957183414627706e-07
+Parent 1 4704.460676036576
+Parent 2 4777.190251734585
+Crossover performance:  4717.535936829365
+==================== Mutation ======================
+Fitness before:  3844.0396704059904
+Fitness after:  -852.4868900448522
+==================== Mutation ======================
+Fitness before:  3805.168899396625
+Fitness after:  3834.107530830045
+==================== Mutation ======================
+Fitness before:  4676.430245744939
+Fitness after:  4630.920038967158
+Sync from RL --> Nevo
+#Games: 904 #Frames: 475914  Train_Max: 4700.59  Test_Score: 4648.59  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4520.22  PG Loss: -266.0386
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.8842714553102268e-07
+Parent 1 4509.328085423003
+Parent 2 4952.779849937772
+Crossover performance:  4755.160442542056
+==================== Distillation Crossover ======================
+MSE Loss: 1.8662235099498047e-07
+Parent 1 4765.454772206752
+Parent 2 4693.57539295262
+Crossover performance:  3862.763385566575
+==================== Distillation Crossover ======================
+MSE Loss: 1.850337046249706e-07
+Parent 1 5026.521715716923
+Parent 2 4083.185753830282
+Crossover performance:  4253.00523816196
+==================== Mutation ======================
+Fitness before:  4202.0926670034405
+Fitness after:  4900.51548911597
+==================== Mutation ======================
+Fitness before:  4344.4278251220385
+Fitness after:  3886.011087724549
+==================== Mutation ======================
+Fitness before:  4332.022181128848
+Fitness after:  4665.551836379917
+==================== Mutation ======================
+Fitness before:  4065.7712572230957
+Fitness after:  2020.5944144523116
+Sync from RL --> Nevo
+#Games: 910 #Frames: 480340  Train_Max: 5147.49  Test_Score: 4209.00  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4387.04  PG Loss: -267.2606
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.003580428980058059
+Parent 1 4967.8794392192085
+Parent 2 4206.007707300528
+Crossover performance:  5013.157932323599
+==================== Distillation Crossover ======================
+MSE Loss: 1.7543511603435037e-07
+Parent 1 4841.507542418294
+Parent 2 4562.043753903097
+Crossover performance:  4872.1491786044435
+==================== Mutation ======================
+Fitness before:  4840.286737003053
+Fitness after:  408.3818745771887
+==================== Mutation ======================
+Fitness before:  5005.668354086991
+Fitness after:  3244.034175267046
+==================== Mutation ======================
+Fitness before:  4925.97875335043
+Fitness after:  4929.049537117992
+==================== Mutation ======================
+Fitness before:  4946.947620028647
+Fitness after:  4021.0397639630837
+Sync from RL --> Nevo
+#Games: 916 #Frames: 481796  Train_Max: 443.93  Test_Score: 4900.79  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 1404.16  PG Loss: -268.1817
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.0032280310755595566
+Parent 1 2437.8478330731255
+Parent 2 1985.2356829158084
+Crossover performance:  2765.97084808411
+==================== Mutation ======================
+Fitness before:  1845.6099351397838
+Fitness after:  4037.123952552076
+==================== Mutation ======================
+Fitness before:  3621.4666776018566
+Fitness after:  2928.4009525534007
+==================== Mutation ======================
+Fitness before:  2889.78814083588
+Fitness after:  -683.7945947329672
+==================== Mutation ======================
+Fitness before:  2541.3267362744214
+Fitness after:  1117.4502388933547
+Sync from RL --> Nevo
+#Games: 922 #Frames: 484723  Train_Max: 4605.01  Test_Score: 3300.25  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4837.19  PG Loss: -269.0873
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.0049688588187564164
+Parent 1 4865.277509050513
+Parent 2 4457.25668028269
+Crossover performance:  4808.191006711626
+==================== Distillation Crossover ======================
+MSE Loss: 2.07148633890597e-07
+Parent 1 4647.873114675375
+Parent 2 4730.341634261882
+Crossover performance:  4642.781242128112
+==================== Mutation ======================
+Fitness before:  4689.6855444910425
+Fitness after:  749.5478804132842
+==================== Mutation ======================
+Fitness before:  4787.304621221521
+Fitness after:  4695.6000135358145
+==================== Mutation ======================
+Fitness before:  4668.234089581429
+Fitness after:  1231.888292249262
+==================== Mutation ======================
+Fitness before:  4781.090260460257
+Fitness after:  4941.111691134369
+Sync from RL --> Nevo
+#Games: 928 #Frames: 490602  Train_Max: 4871.54  Test_Score: 4714.21  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4705.68  PG Loss: -271.9004
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.002811528282472864
+Parent 1 5044.276638493251
+Parent 2 4881.283233729487
+Crossover performance:  5123.168289450844
+==================== Distillation Crossover ======================
+MSE Loss: 1.558900585507672e-07
+Parent 1 5059.211890111802
+Parent 2 5137.777852368234
+Crossover performance:  5077.579145115801
+==================== Mutation ======================
+Fitness before:  5128.036769071586
+Fitness after:  2962.9336001084403
+==================== Mutation ======================
+Fitness before:  5079.117951617356
+Fitness after:  -1632.3524581280635
+==================== Mutation ======================
+Fitness before:  5061.607564435692
+Fitness after:  -763.6265156284855
+==================== Mutation ======================
+Fitness before:  4635.611044609417
+Fitness after:  -251.30867958990012
+Sync from RL --> Nevo
+#Games: 934 #Frames: 492602  Train_Max: 462.85  Test_Score: 5143.03  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4264.55  PG Loss: -273.8034
+
+==================== Mutation ======================
+Fitness before:  4742.393669248192
+Fitness after:  -50.079583852016285
+==================== Mutation ======================
+Fitness before:  4154.414200118708
+Fitness after:  3409.732575690934
+==================== Mutation ======================
+Fitness before:  2467.637014254425
+Fitness after:  -1027.7592807993638
+==================== Mutation ======================
+Fitness before:  1138.0068529437642
+Fitness after:  1495.2568820088593
+Sync from RL --> Nevo
+#Games: 940 #Frames: 494602  Train_Max: 455.97  Test_Score: 4968.52  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 3920.48  PG Loss: -274.4756
+
+==================== Distillation Crossover ======================
+MSE Loss: 1.9859329967175653e-07
+Parent 1 3981.621987874269
+Parent 2 4705.0162181858805
+Crossover performance:  4339.322833454142
+==================== Distillation Crossover ======================
+MSE Loss: 1.9907629820181682e-07
+Parent 1 4820.117055598406
+Parent 2 4842.231441614113
+Crossover performance:  4753.936075131925
+==================== Distillation Crossover ======================
+MSE Loss: 1.9928166032912032e-07
+Parent 1 4415.729539788638
+Parent 2 4788.381407358333
+Crossover performance:  4831.610962903704
+==================== Mutation ======================
+Fitness before:  4849.951566730812
+Fitness after:  4657.523107094201
+==================== Mutation ======================
+Fitness before:  4860.10567517199
+Fitness after:  3917.173806135972
+==================== Mutation ======================
+Fitness before:  4908.125335005725
+Fitness after:  -818.9493043690285
+==================== Mutation ======================
+Fitness before:  4655.3934609793105
+Fitness after:  4772.885385166967
+Sync from RL --> Nevo
+#Games: 946 #Frames: 499745  Train_Max: 5018.99  Test_Score: 4800.58  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4786.15  PG Loss: -277.0998
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.0005902119490201585
+Parent 1 4740.357668628251
+Parent 2 4951.221342542503
+Crossover performance:  4983.922176855836
+==================== Mutation ======================
+Fitness before:  4448.411653980727
+Fitness after:  4794.276126753729
+==================== Mutation ======================
+Fitness before:  3774.3256740012644
+Fitness after:  4730.285874363675
+==================== Mutation ======================
+Fitness before:  4919.124671342943
+Fitness after:  4635.7234691744625
+==================== Mutation ======================
+Fitness before:  4919.890376256096
+Fitness after:  3563.125158962825
+Sync from RL --> Nevo
+#Games: 952 #Frames: 505745  Train_Max: 5023.91  Test_Score: 4934.09  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4695.75  PG Loss: -279.4571
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.002615765784867108
+Parent 1 4488.306937260527
+Parent 2 3512.8416202480757
+Crossover performance:  5175.294556268027
+==================== Distillation Crossover ======================
+MSE Loss: 1.990886744351883e-07
+Parent 1 5034.093685618819
+Parent 2 5008.650310715939
+Crossover performance:  4545.056554007853
+==================== Mutation ======================
+Fitness before:  4321.9390121710785
+Fitness after:  3299.601590541161
+==================== Mutation ======================
+Fitness before:  4459.231817841413
+Fitness after:  -354.27052629933803
+==================== Mutation ======================
+Fitness before:  4728.069045355798
+Fitness after:  2731.0467956034163
+Sync from RL --> Nevo
+#Games: 958 #Frames: 507580  Train_Max: 436.39  Test_Score: 4267.66  Avg: 0.00  ENV:  Ant-v2  DDPG Reward: 4719.18  PG Loss: -280.8470
+
+==================== Distillation Crossover ======================
+MSE Loss: 0.0018302006035810336
+Parent 1 5227.324817499198
+Parent 2 5014.742853299466
+Crossover performance:  5188.471882837053
